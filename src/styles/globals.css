@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Futura";
+    src: url("./fonts/futur.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "EBG";
+    src: url("./fonts/EBGaramond-Regular.ttf") format("truetype");
+}
+
+* {
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Futura;
+}
+
+p {
+    font-family: EBG;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #00C49A;
+    transform-origin: 0%;
+  }
