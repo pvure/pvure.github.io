@@ -29,7 +29,7 @@ export default function Home() {
 
 
   return (
-    <>
+    <div class="m-0 p-0">
       <motion.div
         class="progress-bar"
         style={{ scaleX: scrollYProgress }}
@@ -44,16 +44,17 @@ export default function Home() {
       <Layers />
 
 
-      <div class="hidden lg:block">
-        <StickyAbout />
-      </div>
       <div class="block lg:hidden">
         <About />
       </div>
+      <div class="hidden lg:block">
+        <StickyAbout />
+      </div>
+
       <Projects />
       <Hobbies />
       <Footer />
 
-    </>
+    </div>
   )
 }
