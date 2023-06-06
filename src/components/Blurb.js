@@ -20,12 +20,12 @@ export default function Blurb(props) {
                 {
                     props.animate === undefined ?
                     props.blurb.map((paragraph) => {
-                        return <p key={paragraph.id} class={"mt-3 " + blurbClasses}>{paragraph}</p>
+                        return <p key={paragraph.key} class={"mt-3 " + blurbClasses}>{paragraph}</p>
                     })
                     :
                     props.blurb.map((paragraph, index) => {
                         return <motion.p 
-                            key={paragraph.id}
+                            key={paragraph.key}
                             class={"mt-3 " + blurbClasses}
 
                             initial={{ opacity: 0 }}
