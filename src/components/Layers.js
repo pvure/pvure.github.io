@@ -16,9 +16,9 @@ export default function Layers() {
 
     return (
         <>
-            <motion.img 
+            <motion.img
                 src="../../waves/layered_waves.svg"
-                class="w-full h-full"
+                class="w-full h-full translate-y-1"
             />
             {/* <motion.div style={{ y }} class="">
  
