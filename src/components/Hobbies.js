@@ -13,12 +13,12 @@ export default function Hobbies() {
             src: "fire.jpg",
             theme: "light",
 
-            title: "Hobby 1",
+            title: "Fire Spinning",
             blurb:[
-                "Hobby 1 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I started performing with fire poi this past year. The heat of the flames and the sound of the fire engulfing the poi puts me in a state of flow that I can't find anywhere else.",
+                "In my free time, I enjoy choreographing routines to music and practicing new tricks. I love the mathematical aspect of spinning poi and the challenge of creating and performing new patterns and sequences.",
+                "Although spinning fire can be dangerous, I've never hurt anyone or unintentionally burned myself. I'm always careful and take the necessary safety precautions.",
+                "I've been spinning LEDs for almost 5 years now, taught over 100 people how to spin poi, and performed dozens of times."
             ]
         },
 
@@ -27,12 +27,11 @@ export default function Hobbies() {
             src: "fire.jpg",
             theme: "light",
 
-            title: "Hobby 2",
+            title: "Mechanical Keyboards",
             blurb:[
-                "Hobby 2 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I love everything that has to do with keyboards. In the past, I've built a couple of keyboards but now I'm more interested by the software side of the hobby.",
+                "I've developed a couple of scripts to customize and increase the functionality of my keyboards. For example, I've repurposed the 12 function keys to serve as a macropad that utilizes chording to support over 4,000 programmable macros.",
+                "I've made a few unorthodox changes to my keyboard in the name of typing ergonomics. I've replaced my Caps Lock with my Backspace key, my Caps Lock is on my right Alt key, and my Delete key is where my Backspace should be. I also use the Colemak keyboard layout instead of QWERTY. It took me a couple of years of iteration to get to this point, but I'm very happy with my current setup and can't imagine switching back."
             ]
         },
 
@@ -41,12 +40,10 @@ export default function Hobbies() {
             src: "fire.jpg",
             theme: "light",
 
-            title: "Hobby 3",
+            title: "Rock Climbing",
             blurb:[
-                "Hobby 3 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I've been an avid climber for around four years now and have since become addicted to the rush of adrenaline and sense of achievement that comes with successfully completing challenging routes.",
+                "I mostly stick to bouldering, but I'm planning on learning how to sport climb soon. Last fall, I got to climb outdoors and I'm hoping to do more outdoor climbing this summer."
             ]
         },
     ];

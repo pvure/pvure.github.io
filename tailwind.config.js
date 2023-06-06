@@ -10,7 +10,7 @@ module.exports = {
       'title': '#FFFFFF',
       'about': '#151B29',
       'projects': '#F2F2F2',
-      'hobbies': '#FFF0D7',
+      'hobbies': '#e6e6e6',
       'footer': '#F9F9F9',
 
       'title-dark': '#FFFFFF',
