@@ -44,12 +44,13 @@ export default function Home() {
 
       <Layers />
 
-
-      <div class="block lg:hidden">
-        <About />
-      </div>
-      <div class="hidden lg:block">
-        <FadeAbout />
+      <div id="about">
+        <div class="block lg:hidden">
+          <About />
+        </div>
+        <div class="hidden lg:block">
+          <FadeAbout />
+        </div>
       </div>
 
       <Projects />

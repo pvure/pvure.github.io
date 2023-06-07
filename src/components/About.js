@@ -8,7 +8,7 @@ export default function About() {
 
     return (
         <>
-            <div id="about" class={"bg-about min-h-screen py-10 flex items-center"}>
+            <div class={"bg-about min-h-screen py-10 flex items-center"}>
                 <StaticCard 
                     class="sticky top-0"
                     imageLeft={true}
