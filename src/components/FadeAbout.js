@@ -27,7 +27,7 @@ export default function FadeAbout() {
 
     return (
         <>
-            <div id="about" class={"bg-about min-h-screen py-10 lg:pb-0"}>
+            <div class={"bg-about min-h-screen py-10 lg:pb-0"}>
 
                 <div
                     class="flex-col py-[20vh] sticky top-4"
