@@ -8,9 +8,9 @@ import Blurb from './Blurb';
 
 
 let variants = {
-    enter: direction => ({ x: -100 * direction, opacity: 0 }),
+    enter: direction => ({ x: 100 * direction, opacity: 0 }),
     center: { x: 0, opacity: 1 },
-    exit: direction => ({ x: 100 * direction, opacity: 0 }),
+    exit: direction => ({ x: -100 * direction, opacity: 0 }),
 };
 
 export default function Carousel(props) {
@@ -103,7 +103,7 @@ export default function Carousel(props) {
 
                                     <>
                                         <img
-                                            class="flex rounded-xl lg:mr-10 "
+                                            class="flex rounded-xl lg:mr-10 h-[60vh]"
                                             src={props.data[index].src}
                                         />
 

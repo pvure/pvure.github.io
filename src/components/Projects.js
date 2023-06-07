@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "./StaticCard";
+import StaticCard from "./StaticCard";
 import Gallery from "./Gallery";
 import VerticalCard from "./VerticalCard";
 
@@ -11,9 +11,10 @@ export default function Projects() {
                 <h1 class="text-4xl text-center py-[7vh]">Projects</h1>
 
                 <div class="hidden lg:block">
-                    <Card
+                    <StaticCard
                         imageLeft={false}
-                        src="top.png"
+                        src="projects/poi_edit_small.mp4"
+                        video={true}
                         theme="light"
 
                         title="Pattern Tracking with Poi"
@@ -23,14 +24,15 @@ export default function Projects() {
                             "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts. Advice is then given to the performer to improve their accuracy.",
                             "The model is built with YOLOv5 trained on a custom dataset and the computation and analysis is done in Python."
                         ]}
-                        stack="Python, YOLOv5, Numpy, Matplotlib"
+                        stack="Python, Pytorch, Numpy, Matplotlib"
                     />
                 </div>
 
                 <div class="block lg:hidden">
                     <VerticalCard
-                        src="top.png"
+                        src="projects/poi.png"
                         theme="light"
+                        extraClasses="h-[60vh]"
 
                         title="Pattern Tracking with Poi"
                         blurb={[
@@ -39,14 +41,14 @@ export default function Projects() {
                             "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts. Advice is then given to the performer to improve their accuracy.",
                             "The model is built on YOLOv5 trained on a custom dataset and the computation and analysis is done in Python.",
                         ]}
-                        stack="Python, YOLOv5, Numpy, Matplotlib"
+                        stack="Python, Pytorch, Numpy, Matplotlib"
                     />
                 </div>
 
                 <Gallery 
                     theme="light"
                     titles={["Quarcade", "Book Drop Notification System"]}
-                    srcs={["top.png", "top.png"]}
+                    srcs={["projects/quarcade.png", "projects/book_drop.png"]}
 
                     blurbs={[
                         [
