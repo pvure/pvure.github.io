@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <>
 
-            <div class="flex-col flex justify-between bg-footer p-10">
+            <div class="flex-col flex justify-between bg-footer px-3 py-10">
                 <div class="flex-col px-10">
                     <h1 class="text-2xl text-title-light">Contact</h1>
                     <p class="text-lg text-blurb-light py-3 w-[70%]">Building a cool project or idea? Feel free to reach out! I’m always open to working on a new project with others. </p>
