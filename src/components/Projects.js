@@ -7,7 +7,7 @@ import VerticalCard from "./VerticalCard";
 export default function Projects() {
     return (
         <>
-            <div id="projects" class="bg-projects items-center min-h-screen py-10">
+            <div id="projects" class="bg-projects items-center min-h-screen pb-5 lg:pb-10">
                 <h1 class="text-4xl text-center py-[7vh]">Projects</h1>
 
                 <div class="hidden lg:block">
