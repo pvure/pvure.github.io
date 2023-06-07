@@ -7,7 +7,8 @@ import Hobbies from "../components/Hobbies";
 import Layers from "../components/Layers";
 import Footer from "../components/Footer";
 
-import StickyAbout from "../components/StickyAbout";
+import MobileFooter from "../components/MobileFooter";
+import FadeAbout from "../components/FadeAbout";
 
 import NavBar from "../components/NavBar";
 
@@ -48,12 +49,17 @@ export default function Home() {
         <About />
       </div>
       <div class="hidden lg:block">
-        <StickyAbout />
+        <FadeAbout />
       </div>
 
       <Projects />
       <Hobbies />
-      <Footer />
+      <div class="block lg:hidden">
+        <MobileFooter />
+      </div>
+      <div class="hidden lg:block">
+        <Footer />
+      </div>
 
     </div>
   )

@@ -23,11 +23,11 @@ export default function StickyAbout() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    let extraScrollClass = 20 < scrollPercent && scrollPercent < 40 ? " opacity-1" : " opacity-0";
+    let extraScrollClass = 20 < scrollPercent && scrollPercent < 37 ? " opacity-1" : " opacity-0";
 
     return (
         <>
-            <div id="about" class={"bg-about min-h-screen h-[220vh] py-10 lg:pb-0"}>
+            <div id="about" class={"bg-about min-h-screen h-[180vh] py-10 lg:pb-0"}>
 
                 <div
                     class="flex-col py-[20vh] sticky top-4"
@@ -48,7 +48,7 @@ export default function StickyAbout() {
                                 "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
                                 "I’m interested in entrepreneurship and Effective Altruism and enjoy working on projects at the intersection of software and hardware."
                             ]}
-                            animate={[0, 24, 29, 37]}
+                            animate={[0, 0, 29, 29]}
                             scrollPercent={scrollPercent}
                         />
                     </div>

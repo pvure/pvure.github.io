@@ -10,43 +10,40 @@ export default function Hobbies() {
     const data = [
         {
             imageLeft: true,
-            src: "fire.jpg",
+            src: "hobbies/fire.jpg",
             theme: "light",
 
-            title: "Hobby 1",
+            title: "Fire Spinning",
             blurb:[
-                "Hobby 1 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I started performing with fire poi this past year. The heat of the flames and the sound of the fire engulfing the poi puts me in a state of flow that I can't find anywhere else.",
+                "In my free time, I enjoy choreographing routines to music and practicing new tricks. I love the mathematical aspect of spinning poi and the challenge of creating and performing new patterns and sequences.",
+                "I've been spinning poi for almost 5 years now, taught over 100 people how to spin, and performed dozens of times."
             ]
         },
 
         {
             imageLeft: true,
-            src: "fire.jpg",
+            src: "hobbies/keyboards.jpeg",
             theme: "light",
 
-            title: "Hobby 2",
+            title: "Mechanical Keyboards",
             blurb:[
-                "Hobby 2 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I love everything that has to do with keyboards. In the past, I've built a couple of keyboards but now I'm more interested by the software side of the hobby.",
+                "I've developed a couple of scripts to customize and increase the functionality of my keyboards. In one of them, I've repurposed the 12 function keys to serve as a macropad that utilizes chording to support over 4,000 programmable macros.",
+                "I've made a few unorthodox changes to my keyboard over the course of a couple of years of iteration. I've swapped around a bunch of keys and I use the Colemak keyboard layout instead of the QWERTY one. All in the name of typing ergonomics."
             ]
         },
 
         {
             imageLeft: true,
-            src: "fire.jpg",
+            src: "hobbies/climbing.jpeg",
             theme: "light",
 
-            title: "Hobby 3",
+            title: "Rock Climbing",
             blurb:[
-                "Hobby 3 I’m a rising sophomore at Duke University studying CS and Electrical Engineering. My background is in algorithms and full-stack web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                "I’m interested in entrepreneurship and Effective Altruism and love to work on projects at the intersection of software and hardware."
+                "I've been climbing for around four years now. It's the only sport that I've really stuck with and I've been climbing whenever I get the chance. The rush of adrenaline and sense of achievement that comes with successfully completing challenging routes is addicting.",
+                "I mostly stick to bouldering, but I find top roping equally fun. I want to learn how to sport climb sometime in the near future and I want to start climbing outdoors more frequently.",
+                "I try to climb whenever I travel. I've climbed in gyms in 5 different states and have visited nearly 20 different gyms."
             ]
         },
     ];

@@ -12,7 +12,13 @@ export default function StaticCard(props) {
                 {
                     props.imageLeft ?
                     <>
-                        <img class="rounded-xl lg:mr-10 " src={src}></img>
+                        {
+                            props.video ?
+
+                            <video src={src} autoplay loop muted class="rounded-xl lg:mr-10" />
+                            :
+                            <img class="rounded-xl lg:mr-10 " src={src} />
+                        }
 
                         <Blurb 
                             class="flex flex-wrap" 
@@ -34,7 +40,15 @@ export default function StaticCard(props) {
                             stack={props.stack}
                         />
 
-                        <img class="rounded-xl mt-5 lg:mt-0 lg:ml-10" src={src}></img>
+                        {
+                            props.video ?
+
+                            <video controls autoplay width="100%" class="rounded-xl lg:ml-10 w-[40vh]">
+                                <source src={src} type="video/mp4" />
+                            </video>
+                            :
+                            <img class="rounded-xl lg:ml-10 " src={src} />
+                        }
                     </>
                 }
 
