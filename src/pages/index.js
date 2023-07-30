@@ -45,12 +45,13 @@ export default function Home() {
       <Layers />
 
       <div id="about">
-        <div class="block lg:hidden">
+        {/* <div class="block lg:hidden">
           <About />
         </div>
         <div class="hidden lg:block">
           <FadeAbout />
-        </div>
+        </div> */}
+        <About />
       </div>
 
       <Projects />
