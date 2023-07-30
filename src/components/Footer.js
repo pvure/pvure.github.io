@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 
 export default function Footer() {
+
     return (
         <>
             <div class="flex justify-between bg-footer p-10">

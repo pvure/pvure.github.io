@@ -15,6 +15,13 @@ let variants = {
 
 export default function Carousel(props) {
 
+    useEffect(() => {
+        props.data[0].src = props.data[0].src;
+        props.data[1].src = props.data[1].src;
+        props.data[2].src = props.data[2].src;
+    }, []);
+
+
     let [count, setCount] = useState(0);
     let [prev, setPrev] = useState(count);
     let [dirScroll, setDirScroll] = useState(0);
@@ -103,6 +110,7 @@ export default function Carousel(props) {
 
                                     <>
                                         <img
+                                            id={"carousel-image"}
                                             class="flex rounded-xl lg:mr-10 h-[60vh]"
                                             src={props.data[index].src}
                                         />
