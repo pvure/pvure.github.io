@@ -13,7 +13,7 @@ export default function Projects() {
                 <div class="hidden lg:block">
                     <StaticCard
                         imageLeft={false}
-                        src="projects/poi_edit_small.mp4"
+                        src="projects/poi_detection_demo_vertical.mp4"
                         video={true}
                         theme="light"
 
