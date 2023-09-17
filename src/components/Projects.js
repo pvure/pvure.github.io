@@ -13,15 +13,16 @@ export default function Projects() {
                 <div class="hidden lg:block">
                     <StaticCard
                         imageLeft={false}
-                        src="projects/poi_edit_small.mp4"
+                        src="projects/poi_detection_demo_vertical.mp4"
                         video={true}
                         theme="light"
 
                         title="Pattern Tracking with Poi"
                         blurb={[
-                            "Currently, I'm working on creating an application that helps performers track the movement of their props with computer vision.",
+                            "Recently, I built an application that helps performers track the movement of their props with computer vision.",
                             "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called flowers. It's difficult for some to visualize flowers, but since these patterns can easily be represented with parametrics, it is possible to recreate these flowers graphically.",
-                            "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts. Advice is then given to the performer to improve their accuracy.",
+                            "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts.",
+                            "In the video, the model detects the location of the poi (blue) and uses gradient descent to find the best fit for the parametric equation of the flower (red).",
                             "The model is built with YOLOv5 trained on a custom dataset and the computation and analysis is done in Python."
                         ]}
                         stack="Python, Pytorch, Numpy, Matplotlib"

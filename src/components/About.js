@@ -17,10 +17,10 @@ export default function About() {
 
                     title="About Me"
                     blurb={[
-                        "I’m a rising sophomore at Duke University studying CS and Electrical/Computer Engineering. My background is in algorithms and web development but recently, I’ve been developing programs for microcontrollers and exploring deep learning.",
-                        "Last summer (‘22), I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the U.S..",
-                        "This summer (‘23), I’ll be interning at Hotplate to develop an AI model to evaluate webscraped Instagram accounts to scale customer outreach.",
-                        "I’m interested in entrepreneurship and Effective Altruism and enjoy working on projects at the intersection of software and hardware."
+                        "I’m a sophomore at Duke University studying CS and Electrical/Computer Engineering. My background is in algorithms (USACO Gold) and web development but recently, I’ve been exploring deep learning and developing programs for microcontrollers.",
+                        "Last summer ('23), I was a Software Engineering Intern at Hotplate, a Series A startup backed by Y Combinator, where I designed and developed a data pipeline to scrape and analyze Instagram accounts for market intelligence purposes.",
+                        "The previous summer, I was an Atlas Fellow and worked at Cisco to develop an engineering solution to improve the connected rail system in the United States.",
+                        "I’m interested in entrepreneurship/startups and am looking to learn how to build scalable infrastructure and applications on a team."
                     ]}
                 />
             </div>
