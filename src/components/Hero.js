@@ -19,7 +19,7 @@ export default function Hero() {
 
             >
                 <motion.h1 
-                    class="text-center text-4xl"
+                    class="text-center text-4xl px-[2vh] lg:px-0 "
                     initial={{ y: "1vh", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
 
