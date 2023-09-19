@@ -20,7 +20,7 @@ export default function Projects() {
                         title="Pattern Tracking with Poi"
                         blurb={[
                             "Recently, I built an application that helps performers track the movement of their props with computer vision.",
-                            "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called flowers. It's difficult for some to visualize flowers, but since these patterns can easily be represented with parametrics, it is possible to recreate these flowers graphically.",
+                            "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called \"flowers\", which can be represented by parametric equations.",
                             "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts.",
                             "In the video, the model detects the location of the poi (blue) and uses gradient descent to find the best fit for the parametric equation of the flower (red).",
                             "The model is built with YOLOv5 trained on a custom dataset and the computation and analysis is done in Python."
@@ -37,10 +37,11 @@ export default function Projects() {
 
                         title="Pattern Tracking with Poi"
                         blurb={[
-                            "Currently, I'm working on creating an application that helps performers track the movement of their props with computer vision to improve their performance.",
-                            "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called flowers. It's difficult for some to visualize flowers, but since these patterns can easily be represented with parametrics, it is possible to recreate these flowers graphically.",
-                            "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts. Advice is then given to the performer to improve their accuracy.",
-                            "The model is built on YOLOv5 trained on a custom dataset and the computation and analysis is done in Python.",
+                            "Recently, I built an application that helps performers track the movement of their props with computer vision.",
+                            "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called \"flowers\", which can be represented by parametric equations.",
+                            "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts.",
+                            "The model is built with YOLOv5 trained on a custom dataset and the computation and analysis is done in Python.",
+                            "A video is viewable on the desktop version of this site.",
                         ]}
                         stack="Python, Pytorch, Numpy, Matplotlib"
                     />
