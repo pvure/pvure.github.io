@@ -15,7 +15,7 @@ export default function StaticCard(props) {
                         {
                             props.video ?
 
-                            <video src={src} autoplay loop muted class="rounded-xl lg:mr-10" />
+                            <video src={src} class="rounded-xl lg:mr-10" autoPlay loop muted />
                             :
                             <img class="rounded-xl lg:mr-10 " src={src} />
                         }
