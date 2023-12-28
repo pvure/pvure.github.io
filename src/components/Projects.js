@@ -49,25 +49,25 @@ export default function Projects() {
 
                 <Gallery 
                     theme="light"
-                    titles={["Quarcade", "Book Drop Notification System"]}
-                    srcs={["projects/quarcade.png", "projects/book_drop.png"]}
+                    titles={["WalletWatchers", "Quarcade"]}
+                    srcs={["projects/walletwatchers.png", "projects/quarcade.png"]}
 
                     blurbs={[
+                        [
+                            "WalletWatchers is a financial tracker that aggregates information across multiple bank accounts to generate spending and budgeting insights.",
+                            "Created API endpoints to fetch financial data the Plaid API, which is stored using SQLite. The website is built with NextJS and TailwindCSS.",
+                            "Schema was designed with E-R diagrams and testing datasets were developed and generated in Python using Faker to test app functionality."
+                        ],
                         [
                             "Quarcade is a fullstack online game platform that supports real-time interactions between users. Players can join lobbies using a generated room code, and can vote to play a multiplayer version of the game Bananagrams.",
                             "User data is stored in MongoDB and Websockets are used to facilitate communication between users. The website wireframe was developed in Figma.",
                             "This project was developed through Stuyvesant's Google Mentorship program. At the end of our project, we presented our project to Google employees.",
                         ],
-                        [
-                            "This Arduino-based device installed in Duke University's Perkins Library notifies librarians when a bin is full of books.",
-                            "The system is built with multiple ESP-32 microcontrollers that post and retrieve data from Firebase. Books are sensed with an ultrasound and IR beam breaker and all components are housed in a custom-designed 3D-printed case. An accompanying React-based website allows librarians to monitor the status of the system.",
-                            "The system was built for the Duke University Libraries. During the school year, it is expected to reduce retrieval trips by 80% and save Duke librarians 2 hrs/wk."
-                        ]
                     ]}
 
                     stacks={[
+                        ["NextJS, TailwindCSS, SQLite, Plaid API, Python"],
                         ["ReactJS, MongoDB, Express, Node.js, Socket.io, Figma"],
-                        ["Arduino & Micropython, CAD, ESP-32/Raspberry Pi, Firebase, ReactJS, Tailwind"]
                     ]}
                 
                 />
