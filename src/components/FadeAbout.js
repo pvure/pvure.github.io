@@ -27,18 +27,18 @@ export default function FadeAbout() {
 
     return (
         <>
-            <div class={"bg-about min-h-screen py-10 lg:pb-0"}>
+            <div className={"bg-about min-h-screen py-10 lg:pb-0"}>
 
                 <div
-                    class="flex-col py-[20vh] sticky top-4"
+                    className="flex-col py-[20vh] sticky top-4"
                 >
 
-                    <div class={"flex flex-wrap lg:flex-nowrap justify-center items-center mx-[10%]"}>
+                    <div className={"flex flex-wrap lg:flex-nowrap justify-center items-center mx-[10%]"}>
 
-                        <img class="rounded-xl lg:mr-10 " src="../../top.png"></img>
+                        <img className="rounded-xl lg:mr-10 " src="../../top.png"></img>
 
                         <Blurb 
-                            class="flex flex-wrap" 
+                            className="flex flex-wrap" 
                             theme="dark"
 
                             title="About Me"
@@ -56,7 +56,7 @@ export default function FadeAbout() {
                     
                     <motion.a
                         href={"#projects"}
-                        class={"flex justify-center items-center transition-opacity animate-1000" + extraScrollClass}
+                        className={"flex justify-center items-center transition-opacity animate-1000" + extraScrollClass}
                         animate={{ y: [0, 10, 0] }}
                         transition={{
                             repeat: Infinity,
@@ -64,7 +64,7 @@ export default function FadeAbout() {
                             ease: "easeInOut",
                         }}
                     >
-                        <BsChevronCompactDown size={42} color="#FFFFFF" class="mt-10" />
+                        <BsChevronCompactDown size={42} color="#FFFFFF" className="mt-10" />
                     </motion.a>
                 </div>
             </div>

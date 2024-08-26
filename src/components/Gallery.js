@@ -6,7 +6,7 @@ export default function Gallery(props) {
 
     return (
         <>
-            <div class="flex flex-wrap md:flex-nowrap my-10">
+            <div className="flex flex-wrap md:flex-nowrap my-10">
                 {
                     props.titles.map((title, index) => {
                         return (

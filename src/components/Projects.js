@@ -7,10 +7,10 @@ import VerticalCard from "./VerticalCard";
 export default function Projects() {
     return (
         <>
-            <div id="projects" class="bg-projects items-center min-h-screen pb-5 lg:pb-10">
-                <h1 class="text-4xl text-center py-[7vh]">Projects</h1>
+            <div id="projects" className="bg-projects items-center min-h-screen pb-5 lg:pb-10">
+                <h1 className="text-4xl text-center py-[7vh]">Projects</h1>
 
-                <div class="hidden lg:block">
+                <div className="hidden lg:block">
                     <StaticCard
                         imageLeft={false}
                         src="projects/poi_detection_demo_vertical.mp4"
@@ -19,7 +19,7 @@ export default function Projects() {
 
                         title="Pattern Tracking with Poi"
                         blurb={[
-                            "Recently, I built an application that helps performers track the movement of their props with computer vision.",
+                            "I built an application that helps performers track the movement of their props with computer vision.",
                             "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called \"flowers,\" which can be represented by parametric equations.",
                             "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts.",
                             "In the video, the model detects the location of the poi (blue) and uses gradient descent to find the best fit for the parametric equation of the flower (red).",
@@ -29,7 +29,7 @@ export default function Projects() {
                     />
                 </div>
 
-                <div class="block lg:hidden">
+                <div className="block lg:hidden">
                     <VerticalCard
                         src="projects/poi.png"
                         theme="light"
@@ -37,7 +37,7 @@ export default function Projects() {
 
                         title="Pattern Tracking with Poi"
                         blurb={[
-                            "Recently, I built an application that helps performers track the movement of their props with computer vision.",
+                            "I built an application that helps performers track the movement of their props with computer vision.",
                             "In the past, I've taught how to spin poi, a prop that relies on recreating patterns called \"flowers,\" which can be represented by parametric equations.",
                             "Computer vision is used to extract the relative coordinates of the poi and regression is used to evaluate how accurate the patterns that performers create with their poi are to their graphical counterparts.",
                             "The model is built with YOLOv5 trained on a custom dataset and the computation and analysis is done in Python.",

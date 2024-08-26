@@ -12,14 +12,14 @@ export default function Blurb(props) {
     return (
         <>
 
-            <div class="flex-col mt-[7%] lg:mt-0">
+            <div className="flex-col mt-[7%] lg:mt-0">
 
-                <h1 class={"my-2" + titleClasses}>{props.title}</h1>
+                <h1 className={"my-2" + titleClasses}>{props.title}</h1>
 
                 {
                     props.animate === undefined ?
                     props.blurb.map((paragraph) => {
-                        return <p key={paragraph.key} class={"mt-3 " + blurbClasses}>{paragraph}</p>
+                        return <p key={paragraph.key} className={"mt-3 " + blurbClasses}>{paragraph}</p>
                     })
                     :
 
@@ -28,7 +28,7 @@ export default function Blurb(props) {
                     props.blurb.map((paragraph, index) => {
                         return <motion.p
                             key={paragraph.key}
-                            class={"mt-3 " + blurbClasses}
+                            className={"mt-3 " + blurbClasses}
 
                             initial={{ opacity: 0, y: 20 }}
                             animate={ props.scrollPercent > 10 ? { opacity: 1, y: 0 } : {}}
@@ -45,7 +45,7 @@ export default function Blurb(props) {
                     props.blurb.map((paragraph, index) => {
                         return <motion.p 
                             key={paragraph.key}
-                            class={"mt-3 " + blurbClasses}
+                            className={"mt-3 " + blurbClasses}
 
                             initial={{ opacity: 0 }}
                             animate={props.scrollPercent > props.animate[index] ? { opacity: 1 } : {}}
@@ -61,7 +61,7 @@ export default function Blurb(props) {
 
                 {
                     props.stack ?
-                    <h3 class="mt-3 mb-5"><b>{props.stack}</b></h3>
+                    <h3 className="mt-3 mb-5"><b>{props.stack}</b></h3>
                     :
                     <></>
                 }

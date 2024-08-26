@@ -30,9 +30,9 @@ export default function Home() {
 
 
   return (
-    <div class="m-0 p-0">
+    <div className="m-0 p-0">
       <motion.div
-        class="progress-bar"
+        className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
 
@@ -45,10 +45,10 @@ export default function Home() {
       <Layers />
 
       <div id="about">
-        {/* <div class="block lg:hidden">
+        {/* <div className="block lg:hidden">
           <About />
         </div>
-        <div class="hidden lg:block">
+        <div className="hidden lg:block">
           <FadeAbout />
         </div> */}
         <About />
@@ -56,10 +56,10 @@ export default function Home() {
 
       <Projects />
       <Hobbies />
-      <div class="block lg:hidden">
+      <div className="block lg:hidden">
         <MobileFooter />
       </div>
-      <div class="hidden lg:block">
+      <div className="hidden lg:block">
         <Footer />
       </div>
 

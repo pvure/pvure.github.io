@@ -8,17 +8,17 @@ export default function Footer() {
     return (
         <>
 
-            <div class="flex-col flex justify-between bg-footer px-3 py-10">
-                <div class="flex-col px-10">
-                    <h1 class="text-2xl text-title-light">Contact</h1>
-                    <p class="text-lg text-blurb-light py-3 w-[70%]">Building a cool project or idea? Feel free to reach out! I’m always open to working on a new project with others. </p>
+            <div className="flex-col flex justify-between bg-footer px-3 py-10">
+                <div className="flex-col px-10">
+                    <h1 className="text-2xl text-title-light">Contact</h1>
+                    <p className="text-lg text-blurb-light py-3 w-[70%]">Building a cool project or idea? Feel free to reach out! I’m always open to working on a new project with others. </p>
         
-                    <p class="text-lg text-blurb-light">aaronhsu4606@gmail.com | @aaaronhsu</p>
+                    <p className="text-lg text-blurb-light">aaronhsu4606@gmail.com | @aaaronhsu</p>
                 </div>
 
-                <div class="flex justify-center mt-5">
+                <div className="flex justify-center mt-5">
                     <motion.a 
-                        class="mx-3 mt-3"
+                        className="mx-3 mt-3"
                         href="https://github.com/aaaronhsu" 
                         whileHover={{ scale: 1.1 }}
                         transition={{
@@ -26,10 +26,10 @@ export default function Footer() {
                             duration: 0.3
                         }}
                     >
-                        <FaGithub class="my-2" size={30} color="#000000" />
+                        <FaGithub className="my-2" size={30} color="#000000" />
                     </motion.a>
                     <motion.a 
-                        class="mx-3 mt-3"
+                        className="mx-3 mt-3"
                         href="https://www.linkedin.com/in/aaron-hsu4606/" 
                         whileHover={{ scale: 1.1 }}
                         transition={{
@@ -37,10 +37,10 @@ export default function Footer() {
                             duration: 0.3
                         }}
                     >
-                        <FaLinkedin class="my-2" size={30} color="#000000" />
+                        <FaLinkedin className="my-2" size={30} color="#000000" />
                     </motion.a>
                     <motion.a 
-                        class="mx-3 mt-3"
+                        className="mx-3 mt-3"
                         href="https://www.instagram.com/aaaronhsu/" 
                         whileHover={{ scale: 1.1 }}
                         transition={{
@@ -48,7 +48,7 @@ export default function Footer() {
                             duration: 0.3
                         }}
                     >
-                        <FaInstagram class="my-2" size={30} color="#000000" />
+                        <FaInstagram className="my-2" size={30} color="#000000" />
                     </motion.a>
                 </div>
 

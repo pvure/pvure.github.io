@@ -7,7 +7,7 @@ export default function StaticCard(props) {
 
     return (
         <>
-            <div class={"flex flex-wrap lg:flex-nowrap justify-center items-center mx-[10%]"}>
+            <div className={"flex flex-wrap lg:flex-nowrap justify-center items-center mx-[10%]"}>
 
                 {
                     props.imageLeft ?
@@ -15,13 +15,13 @@ export default function StaticCard(props) {
                         {
                             props.video ?
 
-                            <video src={src} class="rounded-xl lg:mr-10" autoPlay loop muted />
+                            <video src={src} className="rounded-xl lg:mr-10" autoPlay loop muted />
                             :
-                            <img class="rounded-xl lg:mr-10 " src={src} />
+                            <img className="rounded-xl lg:mr-10 " src={src} />
                         }
 
                         <Blurb 
-                            class="flex flex-wrap" 
+                            className="flex flex-wrap" 
                             theme={props.theme}
 
                             title={props.title}
@@ -31,7 +31,7 @@ export default function StaticCard(props) {
                     :
                     <>
                         <Blurb
-                            class="" 
+                            className="" 
                             theme={props.theme}
 
                             title={props.title}
@@ -43,11 +43,11 @@ export default function StaticCard(props) {
                         {
                             props.video ?
 
-                            <video controls autoplay width="100%" class="rounded-xl lg:ml-10 w-[40vh]">
+                            <video controls autoplay width="100%" className="rounded-xl lg:ml-10 w-[40vh]">
                                 <source src={src} type="video/mp4" />
                             </video>
                             :
-                            <img class="rounded-xl lg:ml-10 " src={src} />
+                            <img className="rounded-xl lg:ml-10 " src={src} />
                         }
                     </>
                 }

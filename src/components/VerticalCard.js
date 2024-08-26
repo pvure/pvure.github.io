@@ -8,9 +8,9 @@ export default function VerticalCard(props) {
 
     return (
         <>
-            <div class="flex-1 flex-col justify-center flex-wrap mx-10 mt-10">
+            <div className="flex-1 flex-col justify-center flex-wrap mx-10 mt-10">
                 {/* props.src */}
-                <img class={"lg:mr-10 mt-5 lg:py-3 mx-auto my-auto rounded-xl" + extraClasses} src={props.src} />
+                <img className={"lg:mr-10 mt-5 lg:py-3 mx-auto my-auto rounded-xl" + extraClasses} src={props.src} />
 
                 <Blurb 
                     theme={props.theme}
