@@ -18,24 +18,24 @@ export default function Layers() {
         <>
             <motion.img
                 src="../../waves/layered_waves.svg"
-                class="w-full h-full translate-y-1"
+                className="w-full h-full translate-y-1"
             />
-            {/* <motion.div style={{ y }} class="">
+            {/* <motion.div style={{ y }} className="">
  
             </motion.div> */}
-            {/* <motion.div class="absolute -z-40 -mt-[16vh]">
+            {/* <motion.div className="absolute -z-40 -mt-[16vh]">
                 <img src="../../wave1.svg" />
 
             </motion.div>
-            <motion.div class="absolute -z-30 -mt-[13vh]">
+            <motion.div className="absolute -z-30 -mt-[13vh]">
                 <img src="../../wave2.svg" />
 
             </motion.div>
-            <motion.div class="absolute -z-20 -mt-[8vh]">
+            <motion.div className="absolute -z-20 -mt-[8vh]">
                 <img src="../../wave3.svg" />
 
             </motion.div>
-            <motion.div class="absolute -z-10 -mt-[4vh]">
+            <motion.div className="absolute -z-10 -mt-[4vh]">
                 <img src="../../wave4.svg" />
 
             </motion.div> */}

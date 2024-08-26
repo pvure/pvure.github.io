@@ -11,7 +11,7 @@ export default function Hero() {
         <>
             <motion.div 
                 id="hero"
-                class="pt-[30vh] lg:pt-[33vh] flex flex-col items-center"
+                className="pt-[30vh] lg:pt-[33vh] flex flex-col items-center"
                 initial={{ height: "100vh"}}
                 animate={{ height: "77vh"}}
 
@@ -19,7 +19,7 @@ export default function Hero() {
 
             >
                 <motion.h1 
-                    class="text-center text-4xl px-[2vh] lg:px-0 "
+                    className="text-center text-4xl px-[2vh] lg:px-0 "
                     initial={{ y: "1vh", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
 
@@ -29,7 +29,7 @@ export default function Hero() {
                 </motion.h1>
 
                 {/* <motion.hr 
-                    class="w-[40%] border my-4" 
+                    className="w-[40%] border my-4" 
                     initial={{ y: "1vh", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
 
@@ -37,16 +37,16 @@ export default function Hero() {
                 /> */}
 
                 <motion.hr 
-                    class="border my-4" 
+                    className="border my-4" 
                     initial={{ width: 0 }}
                     animate={{ width: "35%" }}
 
                     transition={{ duration: 0.5, delay: 0.3, type: "easeOut" }}
                 />
 
-                <div class="flex">
+                {/* <div className="flex">
                     <motion.h1 
-                        class="text-center text-2xl text-blurb-light pl-1.5"
+                        className="text-center text-2xl text-blurb-light pl-1.5"
                         initial={{opacity: 0 }}
                         animate={{opacity: 1 }}
 
@@ -55,7 +55,7 @@ export default function Hero() {
                         Maker,
                     </motion.h1>
                     <motion.h1 
-                        class="text-center text-2xl text-blurb-light pl-1.5"
+                        className="text-center text-2xl text-blurb-light pl-1.5"
                         initial={{opacity: 0 }}
                         animate={{opacity: 1 }}
 
@@ -64,7 +64,7 @@ export default function Hero() {
                         Developer,
                     </motion.h1>
                     <motion.h1 
-                        class="text-center text-2xl text-blurb-light pl-1.5"
+                        className="text-center text-2xl text-blurb-light pl-1.5"
                         initial={{opacity: 0 }}
                         animate={{opacity: 1 }}
 
@@ -72,16 +72,16 @@ export default function Hero() {
                     >
                         Artist
                     </motion.h1>
-                </div>
+                </div> */}
 
-                {/* <h1 class="text-center text-2xl text-blurb-light">Maker, Developer, Artist</h1> */}
+                {/* <h1 className="text-center text-2xl text-blurb-light">Maker, Developer, Artist</h1> */}
 
                 <motion.div 
-                    class="flex mt-3.5"
+                    className="flex mt-3.5"
                     initial={{opacity: 0 }}
                     animate={{opacity: 1 }}
 
-                    transition={{ duration: 0.5, delay: 2.8}}
+                    transition={{ duration: 0.5, delay: 0.8}}
                 >
                     <motion.a 
                         href="https://github.com/aaaronhsu" 
@@ -91,7 +91,7 @@ export default function Hero() {
                             duration: 0.3
                         }}
                     >
-                        <FaGithub class="mx-2" size={36} color="#000000" />
+                        <FaGithub className="mx-2" size={36} color="#000000" />
                     </motion.a>
                     <motion.a 
                         href="https://www.linkedin.com/in/aaron-hsu4606/" 
@@ -101,7 +101,7 @@ export default function Hero() {
                             duration: 0.3
                         }}
                     >
-                        <FaLinkedin class="mx-2" size={36} color="#0A66C2" />
+                        <FaLinkedin className="mx-2" size={36} color="#0A66C2" />
                     </motion.a>
                     <motion.a 
                         href="https://www.instagram.com/aaaronhsu/" 
@@ -111,12 +111,12 @@ export default function Hero() {
                             duration: 0.3
                         }}
                     >
-                        <FaInstagram class="mx-2" size={36} color="#E4405F" />
+                        <FaInstagram className="mx-2" size={36} color="#E4405F" />
                     </motion.a>
                 </motion.div>
             </motion.div>
 
-            {/* <img src={src} class="absolute bottom-0" /> */}
+            {/* <img src={src} className="absolute bottom-0" /> */}
         
         </>
     );

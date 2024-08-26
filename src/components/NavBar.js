@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
         <>
             <motion.div 
-                class="flex flex-row justify-between items-center w-full p-5 -mb-[5vh]"
+                className="flex flex-row justify-between items-center w-full p-5 -mb-[5vh]"
                 id="navbar"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -19,7 +19,7 @@ export default function NavBar() {
 
                 <motion.a
                     href="#hero"
-                    class="text-lg text-blurb-light px-5"
+                    className="text-lg text-blurb-light px-5"
                     whileHover={{ scale: 1.05 }}
                     transition={{
                         duration: 0.3
@@ -28,11 +28,11 @@ export default function NavBar() {
                     
                 </motion.a>
 
-                <div class="flex flex-row">
+                <div className="flex flex-row">
                     <motion.a
 
                         href="#about"
-                        class="z-10 text-lg text-blurb-light px-5"
+                        className="z-10 text-lg text-blurb-light px-5"
                         whileHover={{ scale: 1.05 }}
                         transition={{
                             duration: 0.2
@@ -42,7 +42,7 @@ export default function NavBar() {
                     </motion.a>
                     <motion.a
                         href = "#projects"
-                        class="z-10 text-lg text-blurb-light px-5"
+                        className="z-10 text-lg text-blurb-light px-5"
                         whileHover={{ scale: 1.05 }}
                         transition={{
                             duration: 0.2
@@ -53,7 +53,7 @@ export default function NavBar() {
                     <motion.a
 
                         href="#hobbies"
-                        class="z-10 text-lg text-blurb-light px-5"
+                        className="z-10 text-lg text-blurb-light px-5"
                         whileHover={{ scale: 1.05 }}
                         transition={{
                             duration: 0.2

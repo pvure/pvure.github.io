@@ -48,8 +48,8 @@ export default function Hobbies() {
 
     return (
         <>
-            <div id="hobbies" class="bg-hobbies items-center min-h-screen">
-                <h1 class="text-4xl text-center py-[7vh] text-title-light">Hobbies</h1>
+            <div id="hobbies" className="bg-hobbies items-center min-h-screen">
+                <h1 className="text-4xl text-center py-[7vh] text-title-light">Hobbies</h1>
 
                 <Carousel
                     data={data}

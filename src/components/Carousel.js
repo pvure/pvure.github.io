@@ -75,13 +75,13 @@ export default function Carousel(props) {
         <>
 
             <div 
-                class="flex flex-wrap lg:flex-nowrap justify-center items-center mx-10"
+                className="flex flex-wrap lg:flex-nowrap justify-center items-center mx-10"
             >
 
 
 
                 <MdOutlineKeyboardArrowLeft 
-                    class="px-5 hover:cursor-pointer hidden lg:block"
+                    className="px-5 hover:cursor-pointer hidden lg:block"
                     size={150} 
                     onClick={() => handleClick(count - 1)} 
                 />
@@ -89,7 +89,7 @@ export default function Carousel(props) {
                 <AnimatePresence mode="wait" custom={dirScroll}>
 
                     <motion.div
-                        class="flex flex-wrap lg:flex-nowrap justify-center items-center"
+                        className="flex flex-wrap lg:flex-nowrap justify-center items-center"
 
                         key={count}
 
@@ -111,12 +111,12 @@ export default function Carousel(props) {
                                     <>
                                         <img
                                             id={"carousel-image"}
-                                            class="flex rounded-xl lg:mr-10 h-[60vh]"
+                                            className="flex rounded-xl lg:mr-10 h-[60vh]"
                                             src={props.data[index].src}
                                         />
 
                                         <Blurb
-                                            class="flex flex-wrap"
+                                            className="flex flex-wrap"
                                             theme={props.data[index].theme}
 
                                             title={props.data[index].title}
@@ -135,17 +135,17 @@ export default function Carousel(props) {
                 </AnimatePresence>
 
                 <MdOutlineKeyboardArrowRight
-                    class="px-5 hover:cursor-pointer hidden lg:block"
+                    className="px-5 hover:cursor-pointer hidden lg:block"
                     size={150} 
                     onClick={() => handleClick(count + 1)} 
                 />
 
             </div>
 
-            <motion.div class="flex items-center justify-center py-10">
+            <motion.div className="flex items-center justify-center py-10">
 
                 <MdOutlineKeyboardArrowLeft 
-                    class="px-5 hover:cursor-pointer block lg:hidden"
+                    className="px-5 hover:cursor-pointer block lg:hidden"
                     size={80} 
                     onClick={() => handleClick(count - 1)} 
                 />
@@ -163,7 +163,7 @@ export default function Carousel(props) {
                             
                             >
                                 <BsCircleFill
-                                    class="mx-2"
+                                    className="mx-2"
                                     size={10}
                                     color="#000000"
     
@@ -173,7 +173,7 @@ export default function Carousel(props) {
                             :
                             <BsCircle
                                 key={index}
-                                class="mx-2 hover:cursor-pointer"
+                                className="mx-2 hover:cursor-pointer"
                                 size={10}
 
                                 onClick={() => handleClick(index)}
@@ -184,7 +184,7 @@ export default function Carousel(props) {
                 }
 
                 <MdOutlineKeyboardArrowRight
-                    class="px-5 hover:cursor-pointer block lg:hidden"
+                    className="px-5 hover:cursor-pointer block lg:hidden"
                     size={80} 
                     onClick={() => handleClick(count + 1)} 
                 />
