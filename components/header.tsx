@@ -74,11 +74,11 @@ export function Header() {
 
   return (
     <header className="flex justify-between items-center relative">
-      <h1 className="text-3xl font-medium tracking-tight">
+      <h1 className="text-3xl font-medium tracking-tight z-50">
         Aaron Hs
         <span
           className={
-            "inline-block cursor-pointer z-50" +
+            "inline-block cursor-pointer" +
             (chickenAnimating || numAnimations == 0 ? " animate-spin" : "")
           }
           onMouseEnter={handleMouseEnter}
