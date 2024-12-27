@@ -8,8 +8,8 @@ export function About() {
       </p>
       <p>
         Right now, I&apos;m working on projects that deal with cloud
-        infrastructure. I have experience building full stack apps and I also
-        enjoy working on algorithmic problems.
+        infrastructure. I have experience building full stack apps and enjoy
+        working on algorithmic problems.
       </p>
       <p>
         In my free time, I like to explore new tech,{" "}

@@ -184,64 +184,41 @@ export function Projects() {
         ))}
       </div>
 
-      {/* Additional Projects */}
+      {/* Show button to toggle additional projects */}
       {additionalProjects.length > 0 && (
-        <div className="space-y-4">
-          <h3 className="text-xl font-medium">Other Projects...</h3>
-          <ul className="space-y-2">
-            {/* Always show the first project */}
-            <li key={0} className="py-2">
-              <div className="flex items-center justify-between">
-                <h4 className="font-medium">{additionalProjects[0].title}</h4>
-                <span className="text-sm text-gray-500">
-                  {additionalProjects[0].year}
-                </span>
-              </div>
-              <p className="text-sm text-gray-600 mt-1">
-                {additionalProjects[0].description}
-              </p>
-              <div className="flex gap-2 mt-2">
-                {additionalProjects[0].links.github && (
-                  <a
-                    href={additionalProjects[0].links.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                  >
-                    GitHub
-                  </a>
-                )}
-                {additionalProjects[0].links.live && (
-                  <a
-                    href={additionalProjects[0].links.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                  >
-                    View
-                  </a>
-                )}
-              </div>
-            </li>
+        <>
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="flex items-center text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
+          >
+            {showAll ? (
+              <>
+                <ChevronUp className="h-4 w-4 mr-1" />
+                Show Fewer Projects
+              </>
+            ) : (
+              <>
+                <ChevronDown className="h-4 w-4 mr-1" />
+                Show More Projects
+              </>
+            )}
+          </button>
 
-            {/* Animate additional projects */}
-            <AnimatePresence>
-              {showAll && (
-                <motion.div
-                  initial={{ opacity: 0, height: 0 }} // Initial state: hidden
-                  animate={{ opacity: 1, height: "auto" }} // Animate to visible
-                  exit={{ opacity: 0, height: 0 }} // Animate back to hidden
-                  transition={{ duration: 0.3 }} // Transition duration
-                  className="overflow-hidden" // Prevent layout shift
-                >
-                  {additionalProjects.slice(1).map(
-                    (
-                      project,
-                      index, // Show all projects except the first
-                    ) => (
-                      <li key={index + 1} className="py-2">
-                        {" "}
-                        {/* Adjust key to avoid duplicate keys */}
+          {/* Additional Projects */}
+          <AnimatePresence>
+            {showAll && (
+              <motion.div
+                initial={{ opacity: 0, height: 0 }} // Initial state: hidden
+                animate={{ opacity: 1, height: "auto" }} // Animate to visible
+                exit={{ opacity: 0, height: 0 }} // Animate back to hidden
+                transition={{ duration: 0.3 }} // Transition duration
+                className="overflow-hidden" // Prevent layout shift
+              >
+                <div className="space-y-4">
+                  <h3 className="text-xl font-medium">Other Projects...</h3>
+                  <ul className="space-y-2">
+                    {additionalProjects.map((project, index) => (
+                      <li key={index} className="py-2">
                         <div className="flex items-center justify-between">
                           <h4 className="font-medium">{project.title}</h4>
                           <span className="text-sm text-gray-500">
@@ -274,33 +251,13 @@ export function Projects() {
                           )}
                         </div>
                       </li>
-                    ),
-                  )}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </ul>
-
-          {/* Show button to toggle additional projects */}
-          {additionalProjects.length > 1 && ( // Show the button only if there are more than 1 project
-            <button
-              onClick={() => setShowAll(!showAll)}
-              className="flex items-center text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
-            >
-              {showAll ? (
-                <>
-                  <ChevronUp className="h-4 w-4 mr-1" />
-                  Show Less
-                </>
-              ) : (
-                <>
-                  <ChevronDown className="h-4 w-4 mr-1" />
-                  Show More
-                </>
-              )}
-            </button>
-          )}
-        </div>
+                    ))}
+                  </ul>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </>
       )}
     </section>
   );
