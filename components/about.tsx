@@ -12,13 +12,13 @@ export function About() {
         enjoy working on algorithmic problems.
       </p>
       <p>
-        In my free time, I enjoy exploring new tech,{" "}
+        In my free time, I like to explore new tech,{" "}
         <a
           href="https://youtu.be/OT7CZKSR5z4"
           target="_blank"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
-          playing with fire
+          play with fire
         </a>
         , and{" "}
         <a
@@ -26,7 +26,7 @@ export function About() {
           target="_blank"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
-          trying different restaurants
+          try different restaurants
         </a>
         .
       </p>
