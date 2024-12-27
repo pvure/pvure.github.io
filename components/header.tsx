@@ -104,7 +104,7 @@ export function Header() {
           LinkedIn
         </Link>
         <Link
-          href="https://github.com/yourusername"
+          href="https://github.com/aaaronhsu"
           className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
           target="_blank"
           rel="noopener noreferrer"
