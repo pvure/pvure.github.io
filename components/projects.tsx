@@ -68,6 +68,7 @@ export function Projects() {
       year: "2023",
       links: {
         github: "https://github.com/aaaronhsu/poi",
+        live: "https://youtube.com/shorts/YXsofZzp9Dg",
       },
       technologies: ["Rust", "Python", "YOLOv8", "Computer Vision"],
       featured: true,
@@ -164,7 +165,7 @@ export function Projects() {
                   className="flex items-center gap-1 text-gray-600 hover:text-gray-900 transition-colors duration-200"
                 >
                   <ExternalLink className="h-4 w-4" />
-                  Live Demo
+                  Demo
                 </a>
               )}
               {project.links.article && (
