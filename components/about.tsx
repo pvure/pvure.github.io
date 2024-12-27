@@ -26,7 +26,7 @@ export function About() {
           target="_blank"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
-          trying new restaurants
+          trying different restaurants
         </a>
         .
       </p>
