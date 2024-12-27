@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --black: #08090a;
+    --rose-quartz: #a7a2a9;
+    --seasalt: #f8f8f8;
+    --davys-gray: #575a5e;
+    --eerie-black: #222823;
+}
+
+body {
+    background-color: var(--seasalt);
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+    .bg-modal {
+        background-color: rgba(
+            8,
+            9,
+            10,
+            0.5
+        ); /* Using --black with 50% opacity */
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: rotate(2deg);
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-wiggle {
+    animation: wiggle 3s ease-in-out infinite;
+}
+.animate-spin {
+    animation: spin 5s ease-in-out infinite; /* Adjust duration and easing as needed */
+}
+
+/* body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
