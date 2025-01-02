@@ -2,9 +2,10 @@ export function About() {
   return (
     <section className="space-y-6 text-lg leading-relaxed">
       <p>
-        I&apos;m a junior at Duke interested in building backend systems.
-        I&apos;ve mostly worked at early/growth stage startups, where I built
-        pipelines to ingest and process large amounts of data.
+        I&apos;m a junior at Duke interested in building optimizations for
+        high-throughput backend systems. In the past, I&apos;ve worked at
+        early/growth stage startups, where I built pipelines to ingest and
+        process large amounts of data.
       </p>
       <p>
         Right now, I&apos;m working on projects that deal with cloud
@@ -38,6 +39,7 @@ export function About() {
         >
           aaronhsu4606@gmail.com
         </a>
+        .
       </p>
     </section>
   );
