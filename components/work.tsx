@@ -34,9 +34,9 @@ export function Work() {
         description:
           "Owned end-to-end flow to automatically evaluate and set credit limits.",
         achievements: [
-          "Built business evaluation pipeline for automated credit limit setting, driving $10M+ in monthly customer spend",
-          "Led development of internal communication tool used by 100+ employees",
-          "Built Slackbots and managed DB syncs for internal tools",
+          "Engineered a credit limit evaluation pipeline ($10M+ monthly spend) and internal risk platform (200+ users)",
+          "Built load-tested pipeline with Redis locks and Datadog monitoring across microservices for high-throughput ops",
+          "Architected automated DB sync system and developed test suite achieving 90%+ coverage for critical services",
         ],
         technologies: ["Python", "Flask", "PostgreSQL", "Datadog"],
       },
@@ -52,9 +52,9 @@ export function Work() {
         description:
           "Built v1 of data pipeline for a market intelligence model.",
         achievements: [
-          "Wrote multithreaded scripts to scrape Instagram and query APIs",
-          "Implemented proxy rotation and cookie caching to bypass anti-bot measures",
-          "Integrated collected data into ML model to identify 1000+ high-potential clients at 30% of the expected cost",
+          "Engineered a fault-tolerant data pipeline with multithreaded scraping and proxy rotation for 30K+ daily requests",
+          "Implemented Postgres caching layer with materialized views, reducing query times and costs for analytics by 70%",
+          "Deployed system on GCE, and integrated ML classification to identify 1000+ clients at 30% of the expected cost",
         ],
         technologies: ["Python", "Selenium", "PostgreSQL", "Docker"],
       },

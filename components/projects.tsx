@@ -22,9 +22,18 @@ export function Projects() {
 
   const projects: Project[] = [
     {
+      title: "SMS Diary",
+      description:
+        "A conversation-based diary using LLM agents with RAG-based memory store. Implemented vector-based memory system using pgvector and embedding similarity. Deployed with CI/CD pipeline using GitHub Actions and Docker on AWS EC2.",
+      year: "2025",
+      links: {},
+      technologies: ["Go", "Docker", "GitHub Actions", "EC2", "OpenAI"],
+      featured: true,
+    },
+    {
       title: "Quiver (Twitch.tv Clone)",
       description:
-        "A distributed real-time streaming site that implements load balancing across multiple GCE instances using Kubernetes for high availability. Uses the RTMP and HLS protocols.",
+        "A streaming platform managed with Kubernetes with NGINX-based RTMP ingestion and HLS transcoding. Implemented distributed edge caching layer with configurable TTL and round-robin load balancing. Deployed with Grafana monitoring for cache performance optimization.",
       year: "2024",
       links: {
         github: "https://github.com/aaaronhsu/realtime-streaming",
@@ -35,7 +44,7 @@ export function Projects() {
     {
       title: "Fruit Ninja",
       description:
-        "A full-stack embedded system that combines computer vision with physical swords to play Fruit Ninja on an LED display. The game is run on a Raspberry Pi, events are logged on a Flask server, and users can view game stats on a React app.",
+        "An IoT game with computer vision tracking and custom LED matrix display. Built real-time event processing system (60 FPS tracking, 10 FPS rendering) with dynamic buffer management. Implemented client-server architecture using event queue batching and WebSocket state sync between RPi and EC2.",
       year: "2024",
       links: {
         github: "https://github.com/aaaronhsu/fruit-ninja",
@@ -45,7 +54,7 @@ export function Projects() {
         "React",
         "Flask",
         "PostgreSQL",
-        "AWS EC2",
+        "EC2",
         "WebSockets",
         "NGINX",
       ],
@@ -64,7 +73,7 @@ export function Projects() {
     {
       title: "PoiVision: Prop Tracking & Feedback",
       description:
-        "A program that categorizes user movement using parametric regression. Fine-tuned YOLOv8 with self-collected data to track the location of custom juggling props with a mAP of 0.83.",
+        "A fine-tuned YOLOv8 model (mAP 0.83) on hand-labeled dataset for prop tracking. Implemented custom momentum-based gradient descent in Rust to optimize trigonometric parametric equations for movement classification. Built visualization system for point-wise movement accuracy analysis.",
       year: "2023",
       links: {
         github: "https://github.com/aaaronhsu/poi",
@@ -96,12 +105,13 @@ export function Projects() {
     {
       title: "Whac-A-Mole",
       description:
-        "An implementation of the classic game on an FPGA. Built a 5-stage pipelined processor with bypassing, branch prediction, and memory-based I/O in Verilog and wrote a C-based assembler to translate a custom Assembly ISA to binary.",
+        "A 5-stage pipelined processor with bypassing, branch prediction, and memory-mapped I/O in Verilog. Developed C-based assembler to translate custom Assembly ISA to binary for FPGA deployment.",
       year: "2023",
       links: {
         github: "https://github.com/aaaronhsu/whack-a-mole",
       },
       technologies: ["Verilog", "C", "FPGA"],
+      featured: true,
     },
     {
       title: "Quarcade (Google Mentorship Project)",

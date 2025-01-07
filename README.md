@@ -1,3 +1,3 @@
 # Personal Website
 
-Last updated on December 27th, 2024.
+Last updated on January 6th, 2025.
