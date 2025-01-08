@@ -25,7 +25,7 @@ export function Projects() {
       title: "SMS Diary",
       description:
         "A conversation-based diary using LLM agents with RAG-based memory store. Implemented vector-based memory system using pgvector and embedding similarity. Deployed with CI/CD pipeline using GitHub Actions and Docker on AWS EC2.",
-      year: "2025",
+      year: "2024",
       links: {},
       technologies: ["Go", "Docker", "GitHub Actions", "EC2", "OpenAI"],
       featured: true,
