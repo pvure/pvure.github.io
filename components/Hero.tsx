@@ -24,16 +24,16 @@ export const Hero = () => {
       <div className="flex max-md:flex-col items-start gap-4">
         <div className="flex-[2] p-2 flex my-auto max-md:mx-auto">
           <Avatar className="w-11/12 h-auto max-w-xs mx-auto max-md:w-full max-md:mb-2 relative border border-accent">
-            <AvatarImage
-              className="object-cover absolute z-20 opacity-0 hover:opacity-100 transition-all scale-[1.75] pb-12 brightness-125"
-              src="/headshot.jpg"
-              alt="Pranay Vure"
-            />
-            <AvatarImage
-              className="object-cover relative contrast-[0.975] scale-[1.75] pb-12 brightness-105"
-              src="/headshot.jpg"
-              alt="Pranay Vure"
-            />
+          <AvatarImage
+  className="object-cover absolute z-20 opacity-0 hover:opacity-100 transition-all scale-[1.75] pb-12"
+  src="/headshot.jpg"
+  alt="Pranay Vure"
+/>
+<AvatarImage
+  className="object-cover relative scale-[1.75] pb-12 grayscale"
+  src="/headshot.jpg"
+  alt="Pranay Vure"
+/>
             <AvatarFallback className="h-full">Pranay</AvatarFallback>
           </Avatar>
         </div>
