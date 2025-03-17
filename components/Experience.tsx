@@ -20,7 +20,7 @@ const experiences = [
     logo: "/valinor-logo.png",
     period: "Summer 2024 - Present",
     description:
-      "Built an ML platform to identify and validate drug targets for systemic organ aging, securing angel investments.",
+      "Built an ML platform to predict chemical, small-molecule, and genetic perturbation effects on cellular gene expression. Achieved SOTA metrics, securing hundreds of thousands of dollars of angel investments.",
   },
   {
     title: "Manufacturing Engineering Intern",
