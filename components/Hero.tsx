@@ -50,7 +50,7 @@ export const Hero = () => {
                   "Biomedical Engineer",
                   "Researcher",
                   "Innovator",
-                  "Programmer"
+                  "Computational Biologist"
                 ]}
                 cursor
                 cursorColor="#a8b1c2"

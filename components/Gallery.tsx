@@ -25,7 +25,7 @@ export default function BentoGallery() {
       id: 2,
       src: "/gokart.jpg?height=400&width=400",
       alt: "Go Karting",
-      description: "Go-Karting with the Homies",
+      description: "Go-Karting with Friends",
       aspectRatio: "vertical",
     },
     {
@@ -39,7 +39,7 @@ export default function BentoGallery() {
       id: 4,
       src: "/pchecks.jpg?height=800&width=400",
       alt: "P Checks",
-      description: "P-Checks in K-Ville",
+      description: "Hanging out in front of Cameron Stadium",
       aspectRatio: "vertical",
     },
     {
@@ -52,7 +52,7 @@ export default function BentoGallery() {
     {
       id: 6,
       src: "/plants.jpg?height=400&width=400",
-      alt: "Examining Plants",
+      alt: "At a Greenhouse",
       description: "Examining Plants",
       aspectRatio: "square",
     },
