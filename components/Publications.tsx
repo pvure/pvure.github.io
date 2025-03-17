@@ -120,7 +120,7 @@ export default function Publications() {
       pubType: "Research Article",
       pubDescription: (
         <>
-          Many disease-related proteins have been difficult to target with traditional drugs due to their lack of binding pockets, but PepMLM addresses this by generating linear peptide binders directly from target protein sequences through a novel fine-tuning approach of ESM-2. The system's effectiveness has been demonstrated both computationally and experimentally, successfully generating peptides that can induce degradation of disease-relevant proteins when fused to E3 ubiquitin ligase domains.
+          Many disease-related proteins have been difficult to target with traditional drugs due to their lack of binding pockets, but PepMLM addresses this by generating linear peptide binders directly from target protein sequences through a novel fine-tuning approach of ESM-2. The system&apos;s effectiveness has been demonstrated both computationally and experimentally, successfully generating peptides that can induce degradation of disease-relevant proteins when fused to E3 ubiquitin ligase domains.
         </>
       ),
       pubLink: "https://doi.org/10.48550/arXiv.2310.03842",
@@ -149,7 +149,7 @@ export default function Publications() {
       pubType: "Research Article",
       pubDescription: (
         <>
-          PepPrCLIP provides a novel framework for designing target-binding peptides by combining ESM-2's latent space exploration with CLIP-based screening, requiring only the target protein's sequence. The system's effectiveness has been validated experimentally, successfully generating peptides that can both inhibit and degrade disease-relevant proteins when fused to E3 ubiquitin ligase domains.
+          PepPrCLIP provides a novel framework for designing target-binding peptides by combining ESM-2&apos;s latent space exploration with CLIP-based screening, requiring only the target protein&apos;s sequence. The system&apos;s effectiveness has been validated experimentally, successfully generating peptides that can both inhibit and degrade disease-relevant proteins when fused to E3 ubiquitin ligase domains.
         </>
       ),
       pubLink: "https://www.science.org/doi/10.1126/sciadv.adr8638",
