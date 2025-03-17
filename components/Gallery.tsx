@@ -16,7 +16,7 @@ export default function BentoGallery() {
 
     {
       id: 1,
-      src: "/sahara.jpg?height=400&width=400",
+      src: "/sahara.JPG?height=400&width=400",
       alt: "Me in the Sahara Desert",
       description: "In the Sahara Desert",
       aspectRatio: "square",
