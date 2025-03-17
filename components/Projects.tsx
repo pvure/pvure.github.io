@@ -35,7 +35,7 @@ const projects: Project[] = [
       { name: "Kim, C.", isMainAuthor: false }
     ],
     year: "2024",
-    description: "Widespread alcohol consumption&apos;s negative health impacts have prompted research into biotechnology solutions to combat its toxic effects, particularly through manipulation of liver enzymes that metabolize alcohol and its byproducts. This study explored using adeno-associated virus (AAV) gene therapy to boost ALDH2 enzyme expression in liver cells, finding significant protective effects against toxic acetaldehyde."
+    description: "Widespread alcohol consumption's negative health impacts have prompted research into biotechnology solutions to combat its toxic effects, particularly through manipulation of liver enzymes that metabolize alcohol and its byproducts. This study explored using adeno-associated virus (AAV) gene therapy to boost ALDH2 enzyme expression in liver cells, finding significant protective effects against toxic acetaldehyde."
   },
   {
     title: "NCAM1 Specific Binders",
@@ -81,7 +81,7 @@ const projects: Project[] = [
     title: "Glucose-Insulin Dynamics",
     fullTitle: "Modeling Effects of Humalog and Ozempic on Glucose and Insulin Dynamics in Healthy & Type 2 Diabetes Patients",
     authors: [
-      { name: "D&apos;Cunha, R.", isMainAuthor: false },
+      { name: "D'Cunha, R.", isMainAuthor: false },
       { name: "Vure, P.", isMainAuthor: true },
       { name: "Docters, S.", isMainAuthor: false },
       { name: "Baldwin, B.", isMainAuthor: false },
