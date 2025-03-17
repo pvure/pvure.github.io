@@ -15,7 +15,7 @@ export const Header = () => {
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
           <Link
-            href="https://linkedin.com/in/islam-tayeb"
+            href="https://www.linkedin.com/in/pranay-vure-0903641b2/"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
@@ -29,7 +29,7 @@ export const Header = () => {
           </Link>
 
           <Link
-            href="https://github.com/IslamTayeb"
+            href="https://github.com/pvure"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
@@ -42,15 +42,15 @@ export const Header = () => {
           </Link>
 
           <Link
-            href="https://www.researchgate.net/profile/Islam-Tayeb"
+            href="https://scholar.google.com/citations?user=-y94r58AAAAJ&hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
           >
-            <Icon icon={"academicons:researchgate-square"} className="rounded-[4px] text-foreground" />
+            <Icon icon={"academicons:google-scholar"} className="rounded-[4px] text-foreground" />
           </Link>
           <Link
-            href="Islam_Tayeb_Resume.pdf"
+            href="Pranay_2025_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(
@@ -65,7 +65,7 @@ export const Header = () => {
             />
 
             <p className="text-foreground m-0 leading-none text-xs inline max-sm:hidden ml-1">
-              Resume
+              CV
             </p>
           </Link>
         </ul>
