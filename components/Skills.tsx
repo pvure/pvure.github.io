@@ -44,11 +44,11 @@ export default function Skills() {
     {
       category: "Experimental Skills",
       technologies: [
-        { name: "Bacterial Transformation", initials: "BT", useInitials: true },
-        { name: "Mammalian Transfection", initials: "MT", useInitials: true },
-        { name: "Cell Culture", initials: "CC", useInitials: true },
-        { name: "Protein Purification", initials: "PP", useInitials: true },
-        { name: "Flow Cytometry", initials: "FC", useInitials: true },
+        { name: "Bacterial Transformation", icon: "simple-icons:tensorflow" },
+        { name: "Mammalian Transfection", icon: "simple-icons:pytorch" },
+        { name: "Cell Culture", icon: "simple-icons:googlegemini" },
+        { name: "Protein Purification", icon: "simple-icons:openai" },
+        { name: "Flow Cytometry", icon: "simple-icons:scikitlearn" },
       ],
     },
 
