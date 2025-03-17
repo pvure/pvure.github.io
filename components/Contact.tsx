@@ -82,7 +82,7 @@ export default function Contact() {
         });
       } else {
         toast({
-          description: "Successfully sent! I'll get back to you soon.",
+          description: "Successfully sent! I&apos;ll get back to you soon.",
         });
       }
     } catch (error) {
@@ -261,7 +261,7 @@ export default function Contact() {
                   </Tooltip>
                 </TooltipProvider>
 
-                <Link href={"mailto:islam.tayeb@duke.edu"}>
+                <Link href={"mailto:pranay.vure@duke.edu"}>
                   <Button
                     variant="ghost"
                     size="icon"
@@ -289,7 +289,7 @@ export default function Contact() {
 
               <div className="ml-auto flex flex-row gap-2">
 
-                <Link href="https://www.linkedin.com/in/islam-tayeb/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/pranay-vure-0903641b2/" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="ghost"
                     size="icon"
@@ -345,7 +345,7 @@ export default function Contact() {
 
               <div className="ml-auto flex flex-row gap-2">
 
-                <Link href="Islam_Tayeb_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="Pranay_2025_CV.pdf" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="ghost"
                     size="icon"
