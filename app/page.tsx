@@ -2,8 +2,8 @@
 
 import Hero from "../components/Hero"
 import Experience from "../components/Experience"
-import Projects from "../components/Projects"
 import Publications from "../components/Publications"
+import Projects from "../components/Projects"
 import Skills from "../components/Skills"
 import Gallery from "../components/Gallery"
 import Contact from "../components/Contact"
