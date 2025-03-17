@@ -7,14 +7,6 @@ import { Card } from "./ui/card"
 
 const experiences = [
   {
-    title: "Data Science/R&D Intern",
-    company: "Medtronic",
-    logo: "/Medtronic-Emblem.png",
-    period: "Summer 2024",
-    description:
-      "Quantified sympathetic control of renal vasculature and developed indicators for renal denervation treatment efficacy.",
-  },
-  {
     title: "Founding Engineer",
     company: "Valinor Discovery",
     logo: "/valinor-logo.png",
@@ -23,13 +15,22 @@ const experiences = [
       "Built an ML platform to predict chemical, small-molecule, and genetic perturbation effects on cellular gene expression. Achieved SOTA metrics, securing hundreds of thousands of dollars of angel investments.",
   },
   {
+    title: "Data Science/R&D Intern",
+    company: "Medtronic",
+    logo: "/Medtronic-Emblem.png",
+    period: "Summer 2024",
+    description:
+      "Quantified sympathetic control of renal vasculature and developed indicators for renal denervation treatment efficacy.",
+  },
+  
+  {
     title: "Manufacturing Engineering Intern",
     company: "Medtronic",
     logo: "/Medtronic-Emblem.png",
     period: "Summer 2023",
     description:
       "Optimized NT-oxygenation system manufacturing, reducing production inefficiencies through data-driven analysis and solution implementation.",
-  },
+  }
 ]
 
 export default function Experience() {
