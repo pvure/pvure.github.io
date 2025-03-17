@@ -26,7 +26,7 @@ const experiences = [
     title: "Manufacturing Engineering Intern",
     company: "Medtronic",
     logo: "/Medtronic-Emblem.png",
-    period: "Summer 2024",
+    period: "Summer 2023",
     description:
       "Optimized NT-oxygenation system manufacturing, reducing production inefficiencies through data-driven analysis and solution implementation.",
   },
