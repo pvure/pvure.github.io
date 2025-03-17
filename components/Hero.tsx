@@ -49,7 +49,7 @@ export const Hero = () => {
                 words={[
                   "Biomedical Engineer",
                   "Researcher",
-                  "Innovator",
+                  "Builder",
                   "Computational Biologist"
                 ]}
                 cursor
