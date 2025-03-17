@@ -85,7 +85,7 @@ export const Hero = () => {
                 className="overflow-hidden"
               >
                 <motion.p className="font-sans basis-0 text-muted-foreground pt-1 text-pretty">
-                  Passionate about advancing healthcare through innovative research and technology.
+                  I am passionate about advancing healthcare through innovative research and technology.
                   My work focuses on developing cutting-edge solutions at the intersection of
                   biomedical engineering and artificial intelligence.
                 </motion.p>
