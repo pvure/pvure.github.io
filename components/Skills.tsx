@@ -42,13 +42,13 @@ export default function Skills() {
       ],
     },
     {
-      category: "Experimental Skills",
+      category: "Frontend Development",
       technologies: [
-        { name: "Bacterial Transformation", icon: "simple-icons:tensorflow" },
-        { name: "Mammalian Transfection", icon: "simple-icons:pytorch" },
-        { name: "Cell Culture", icon: "simple-icons:googlegemini" },
-        { name: "Protein Purification", icon: "simple-icons:openai" },
-        { name: "Flow Cytometry", icon: "simple-icons:scikitlearn" },
+        { name: "React", icon: "akar-icons:react-fill" },
+        { name: "Next.js", icon: "simple-icons:nextdotjs" },
+        { name: "Angular", icon: "cib:angular" },
+        { name: "SCSS", icon: "simple-icons:sass" },
+        { name: "Framer Motion", icon: "teenyicons:framer-solid" },
       ],
     },
 
