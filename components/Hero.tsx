@@ -44,6 +44,7 @@ export const Hero = () => {
           </h2>
           <h3 className="font-caption font-medium text-2xl">
             <span className="text-primary">
+              I'm a{" "}
               <Typewriter
                 words={[
                   "Biomedical Engineer",
