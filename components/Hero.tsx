@@ -40,7 +40,7 @@ export const Hero = () => {
 
         <div className="flex-[3] flex flex-col gap-0.5 my-auto">
           <h2 className="font-caption font-semibold text-5xl text-foreground">
-            Hello, <span className="text-accent-foreground">Pranay</span> here!
+          Hello, <span className="text-accent-foreground">Pranay</span> here!
           </h2>
           <h3 className="font-caption font-medium text-2xl">
             <span className="text-primary">
