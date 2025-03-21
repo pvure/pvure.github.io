@@ -87,7 +87,7 @@ export const Hero = () => {
                 <motion.p className="font-sans basis-0 text-muted-foreground pt-1 text-pretty">
                   My goal is to advance healthcare through innovative research and technology.
                   I aim to build solutions at the intersection of
-                  biomedical engineering and artificial intelligence to realize this vision. 
+                  biomedical engineering and artificial intelligence to achieve this vision. 
                 </motion.p>
               </motion.div>
             )}
