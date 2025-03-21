@@ -63,7 +63,7 @@ export const Hero = () => {
             </span>
           </h3>
           <p className="font-sans basis-0 text-muted-foreground text-pretty">
-            Senior @ Duke University majoring in Biomolecular Engineering with a focus on molecular and cellular engineering.
+            Senior @ Duke University majoring in Biomedical Engineering with a focus on molecular and cellular engineering.
             Experienced in integrating deep learning and generative AI with experimental protein design. Feel free to{" "}
             <Link href="#contact" className="underline underline-offset-2">
               reach out
@@ -85,9 +85,9 @@ export const Hero = () => {
                 className="overflow-hidden"
               >
                 <motion.p className="font-sans basis-0 text-muted-foreground pt-1 text-pretty">
-                  I am passionate about advancing healthcare through innovative research and technology.
-                  My work focuses on developing cutting-edge solutions at the intersection of
-                  biomedical engineering and artificial intelligence.
+                  My goal is to advance healthcare through innovative research and technology.
+                  I aim to build solutions at the intersection of
+                  biomedical engineering and artificial intelligence to realize this vision. 
                 </motion.p>
               </motion.div>
             )}
