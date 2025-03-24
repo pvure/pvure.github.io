@@ -64,7 +64,7 @@ export const Hero = () => {
           </h3>
           <p className="font-sans basis-0 text-muted-foreground text-pretty">
             Senior @ Duke University majoring in Biomedical Engineering with a focus on molecular and cellular engineering.
-            Experienced in integrating deep learning and generative AI with experimental protein design. Feel free to{" "}
+            Experienced in integrating deep learning and generative AI with protein design. Feel free to{" "}
             <Link href="#contact" className="underline underline-offset-2">
               reach out
             </Link>
