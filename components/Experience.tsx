@@ -38,6 +38,14 @@ const experiences = [
     period: "Summer 2023",
     description:
       "Optimized NT-oxygenation system manufacturing, reducing production inefficiencies through data-driven analysis and solution implementation.",
+  },
+  {
+    title: "Immune Engineering Researcher",
+    company: "Duke Human Vaccine Institute",
+    logo: "/dhvi_logo_final.png",
+    period: "Fall 2021 - Summer 2023",
+    description:
+      "Built and validated epitope-scaffold models to elicit the production of broadly protective coronavirus antibodies under Dr. Mihai Azoitei",
   }
 ]
 
