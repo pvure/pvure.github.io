@@ -15,6 +15,14 @@ const experiences = [
       "Built an ML platform to predict chemical, small-molecule, and genetic perturbation effects on cellular gene expression. Achieved SOTA metrics, securing hundreds of thousands of dollars of angel investments.",
   },
   {
+    title: "ML Researcher",
+    company: "Programmable Biology Group",
+    logo: "/CAGT_logo.png",
+    period: "Summer 2023 - Present",
+    description:
+      "Built generative AI & deep learning-based models and platforms for protein design under Dr. Pranam Chatterjee",
+  },
+  {
     title: "Data Science/R&D Intern",
     company: "Medtronic",
     logo: "/Medtronic-Emblem.png",
