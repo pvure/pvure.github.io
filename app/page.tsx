@@ -21,7 +21,6 @@ export default function Home() {
         <Experience />
         <Publications />
         <Projects />
-        <Skills />
         <Blog />
         <Gallery />
         <Contact />
