@@ -1,9 +1,8 @@
 "use client"
 import React, { useState } from 'react'
-import { Container } from '@/components/ui/container'
-import { SectionHeading } from '@/components/ui/section-heading'
-import { Button } from '@/components/ui/button'
 import { ArrowLeft, ArrowRight, Clock, Calendar, ExternalLink } from 'lucide-react'
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
 
 // This will be expanded as you write more articles
 const blogPosts = [
@@ -44,14 +43,17 @@ export default function Blog() {
 
   return (
     <section id="blog" className="py-16 md:py-24">
-      <Container>
-        <SectionHeading>Blog</SectionHeading>
-        
-        <div className="mt-8 text-center text-gray-300 max-w-2xl mx-auto">
-          <p>Explore my writings on bioengineering, protein design, and cutting-edge research in the field.</p>
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+            Blog
+          </h2>
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Explore my writings on bioengineering, protein design, and cutting-edge research in the field.
+          </p>
         </div>
         
-        <div className="mt-12 bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden">
+        <Card className="mt-12 overflow-hidden bg-white/5 backdrop-blur-sm">
           <div className="md:grid md:grid-cols-5 gap-0">
             {/* Image (2/5 width on medium screens and above) */}
             <div className="md:col-span-2 h-64 md:h-full relative">
@@ -117,8 +119,8 @@ export default function Blog() {
               )}
             </div>
           </div>
-        </div>
-      </Container>
+        </Card>
+      </div>
     </section>
   )
 }
