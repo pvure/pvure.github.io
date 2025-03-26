@@ -20,7 +20,7 @@ const experiences = [
     logo: "/CAGT_logo.png",
     period: "Summer 2023 - Present",
     description:
-      "Built generative AI & deep learning-based models and platforms for protein design under Dr. Pranam Chatterjee",
+      "Built generative AI & deep learning-based models and platforms for protein design under Dr. Pranam Chatterjee.",
   },
   {
     title: "Data Science/R&D Intern",
@@ -45,7 +45,7 @@ const experiences = [
     logo: "/dhvi_logo_final.png",
     period: "Fall 2021 - Summer 2023",
     description:
-      "Built and validated epitope-scaffold models to elicit the production of broadly protective coronavirus antibodies under Dr. Mihai Azoitei",
+      "Built and validated epitope-scaffold models to elicit the production of broadly protective coronavirus antibodies under Dr. Mihai Azoitei.",
   }
 ]
 
