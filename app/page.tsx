@@ -22,8 +22,8 @@ export default function Home() {
         <Publications />
         <Projects />
         <Skills />
+        <Blog />
         <Gallery />
-        <Blog /> {/* Add the Blog component here after Gallery */}
         <Contact />
         <Footer />
       </div>
