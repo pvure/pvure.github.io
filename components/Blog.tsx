@@ -55,12 +55,12 @@ export default function Blog() {
         <Card className="overflow-hidden bg-white/5 backdrop-blur-sm">
           <div className="md:grid md:grid-cols-5 gap-0">
             {/* Image (2/5 width on medium screens and above) */}
-            <div className="md:col-span-2 h-64 md:h-full relative">
+            <div className="md:col-span-2 h-64 md:h-full relative md:rounded-l-lg overflow-hidden">
               <div 
-                className="w-full h-full bg-center bg-cover" 
+                className="w-full h-full bg-center bg-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                 style={{ backgroundImage: `url('${currentPost.imageUrl}')` }}
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/70 md:bg-gradient-to-l md:from-black/70 md:to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/70 md:bg-gradient-to-l md:from-black/70 md:to-transparent rounded-t-lg md:rounded-none md:rounded-l-lg" />
             </div>
             
             {/* Content (3/5 width on medium screens and above) */}
