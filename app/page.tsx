@@ -1,11 +1,11 @@
 "use client"
-
 import Hero from "../components/Hero"
 import Experience from "../components/Experience"
 import Publications from "../components/Publications"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
 import Gallery from "../components/Gallery"
+import Blog from "../components/Blog" // Import the Blog component
 import Contact from "../components/Contact"
 import { DotPattern } from "@/components/ui/dot-pattern"
 import { cn } from "@/lib/utils"
@@ -23,20 +23,20 @@ export default function Home() {
         <Projects />
         <Skills />
         <Gallery />
+        <Blog /> {/* Add the Blog component here after Gallery */}
         <Contact />
         <Footer />
       </div>
-
-        <DotPattern
-          width={20}
-          height={20}
-          cx={1}
-          cy={1}
-          cr={1}
-          className={cn(
-            "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] -z-10 opacity-50",
-          )}
-        />
+      <DotPattern
+        width={20}
+        height={20}
+        cx={1}
+        cy={1}
+        cr={1}
+        className={cn(
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] -z-10 opacity-50",
+        )}
+      />
     </div>
   )
 }
