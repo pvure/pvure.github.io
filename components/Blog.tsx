@@ -1,8 +1,10 @@
 "use client"
 import React, { useState } from 'react'
 import { ArrowLeft, ArrowRight, Clock, Calendar, ExternalLink } from 'lucide-react'
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { Section } from "./misc/Section"
 
 // This will be expanded as you write more articles
 const blogPosts = [
@@ -42,18 +44,15 @@ export default function Blog() {
   }
 
   return (
-    <section id="blog" className="py-16 md:py-24">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Blog
-          </h2>
-          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-            Explore my writings on bioengineering, protein design, and cutting-edge research in the field.
-          </p>
-        </div>
-        
-        <Card className="mt-12 overflow-hidden bg-white/5 backdrop-blur-sm">
+    <Section className="flex flex-col items-start gap-4">
+      <div>
+        <Badge variant="outline" className="" id="blog">
+          Blog
+        </Badge>
+      </div>
+      
+      <div className="flex flex-col gap-4 w-full">
+        <Card className="overflow-hidden bg-white/5 backdrop-blur-sm">
           <div className="md:grid md:grid-cols-5 gap-0">
             {/* Image (2/5 width on medium screens and above) */}
             <div className="md:col-span-2 h-64 md:h-full relative">
@@ -65,9 +64,9 @@ export default function Blog() {
             </div>
             
             {/* Content (3/5 width on medium screens and above) */}
-            <div className="md:col-span-3 p-6 md:p-8 relative">
+            <div className="md:col-span-3 p-6 relative">
               <div className="flex justify-between items-start mb-2">
-                <div className="flex items-center gap-3 text-gray-400 text-sm">
+                <div className="flex items-center gap-3 text-muted-foreground text-sm">
                   <div className="flex items-center">
                     <Calendar className="w-4 h-4 mr-1" />
                     {currentPost.date}
@@ -79,9 +78,10 @@ export default function Blog() {
                 </div>
               </div>
               
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">{currentPost.title}</h3>
+              <h3 className="text-base font-semibold text-primary mb-2">{currentPost.title}</h3>
+              <p className="text-sm text-muted-foreground mt-1">{currentPost.summary}</p>
               
-              <div className="mb-6 text-gray-300">
+              <div className="text-sm text-muted-foreground mt-4">
                 {currentPost.preview}
               </div>
               
@@ -89,13 +89,13 @@ export default function Blog() {
                 href={currentPost.link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 font-medium transition-colors"
+                className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium transition-colors mt-4 text-sm"
               >
                 Read on Substack <ExternalLink className="w-4 h-4" />
               </a>
               
               {blogPosts.length > 1 && (
-                <div className="flex gap-3 mt-8">
+                <div className="flex gap-3 mt-6">
                   <Button
                     onClick={prevPost}
                     variant="outline"
@@ -121,6 +121,6 @@ export default function Blog() {
           </div>
         </Card>
       </div>
-    </section>
+    </Section>
   )
 }
