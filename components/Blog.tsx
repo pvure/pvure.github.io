@@ -16,7 +16,7 @@ const blogPosts = [
     summary: "An introduction to bioengineering and a glimpse into my research on designing proteins to combat coronavirus variants.",
     preview: "When I tell people I'm majoring in bioengineering, conversations often end quickly with a polite nod or a question about prosthetics, highlighting how unfamiliar most people are with the extent of the field. This article introduces the field of bioengineering and explores my research on designing proteins that can help fight coronaviruses by targeting parts that don't change.",
     imageUrl: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    link: "https://pranayvure.substack.com/p/bioengineering-primer-fighting-viruses"
+    link: "https://open.substack.com/pub/pranayvure/p/what-is-bioengineering-an-example?r=4b25v&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true"
   },
   // Example of a second post (to be added when you write it)
   // {
