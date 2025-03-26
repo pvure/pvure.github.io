@@ -6,7 +6,6 @@ import Publications from "../components/Publications"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
 import Gallery from "../components/Gallery"
-import Blog from "../components/Blog"
 import Contact from "../components/Contact"
 import { DotPattern } from "@/components/ui/dot-pattern"
 import { cn } from "@/lib/utils"
@@ -24,7 +23,6 @@ export default function Home() {
         <Projects />
         <Skills />
         <Gallery />
-        <Blog />
         <Contact />
         <Footer />
       </div>
