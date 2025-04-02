@@ -26,7 +26,7 @@ export default function Publications() {
           Wang, L.†, Pulugurta. R.†, <span className="font-semibold text-primary">Vure, P†</span>, Pal, A., Zhang, Y., Chatterjee, P. (†equal contribution)
         </>
       ),
-      pubImpact: "Paper in review, Nature Methods",
+      pubImpact: "Journal paper in preparation",
       pubTitle: "PepDoRA: A Unified Peptide Language Model via Weight-Decomposed Low-Rank Adaptation",
       pubJournal: "Arxiv",
       pubJournalLink: "https://doi.org/10.48550/arXiv.2410.20667",
