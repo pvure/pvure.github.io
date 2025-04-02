@@ -28,9 +28,9 @@ export default function Publications() {
       ),
       pubImpact: "Paper in review, Nature Methods",
       pubTitle: "PepDoRA: A Unified Peptide Language Model via Weight-Decomposed Low-Rank Adaptation",
-      pubJournal: "NeurIPS AIDrugsX 2024",
+      pubJournal: "Arxiv",
       pubJournalLink: "https://doi.org/10.48550/arXiv.2410.20667",
-      pubType: "Poster Presentation",
+      pubType: "Preprint",
       pubDescription: (
         <>
           While traditional models struggle to predict the properties of peptide therapeutics, PepDoRA bridges this gap by using Weight-Decomposed Low-Rank Adaptation to fine-tune ChemBERTa-77M-MLM, creating optimized embeddings that can accurately predict various properties of both modified and unmodified peptides.
@@ -86,9 +86,9 @@ export default function Publications() {
       ),
       pubImpact: "Journal paper in preparation",
       pubTitle: "AMP-Diffusion: Integrating Latent Diffusion with Protein Language Models for Antimicrobial Peptide Generation",
-      pubJournal: "NeurIPS 2023 GenBio Workshop",
-      pubJournalLink: "https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1.full.pdf",
-      pubType: "Poster Presentation",
+      pubJournal: "Biorxiv",
+      pubJournalLink: "https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1",
+      pubType: "Preprint",
       pubDescription: (
         <>
           While diffusion models have shown remarkable success across AI domains, their application to protein design through continuous latent space diffusion within protein language models remains underexplored. We present AMP-Diffusion, a latent diffusion model that leverages ESM-2 to generate antimicrobial peptides with properties closely matching natural sequences, demonstrating the potential of pLM-based diffusion for peptide design.
@@ -115,8 +115,8 @@ export default function Publications() {
       ),
       pubImpact: "Paper in review, Nature Biotechnology",
       pubTitle: "PepMLM: Target Sequence-Conditioned Generation of Therapeutic Peptide Binders via Span Masked Language Modeling",
-      pubJournal: "",
-      pubJournalLink: "",
+      pubJournal: "Nature Biotechnology (In Review)",
+      pubJournalLink: "https://arxiv.org/abs/2310.03842",
       pubType: "Research Article",
       pubDescription: (
         <>
