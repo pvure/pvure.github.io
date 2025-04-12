@@ -12,7 +12,7 @@ const experiences = [
     logo: "/valinor-logo.png",
     period: "Summer 2024 - Present",
     description:
-      "Built an ML platform to predict chemical, small-molecule, and genetic perturbation effects on cellular gene expression. Achieved SOTA metrics, securing hundreds of thousands of dollars of angel investments.",
+      "Building at the intersection of AI and Biotech.",
   },
   {
     title: "ML Researcher",
