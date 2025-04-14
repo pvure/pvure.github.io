@@ -7,7 +7,7 @@ import { Card } from "./ui/card"
 
 const experiences = [
   {
-    title: "Engineer",
+    title: "ML Engineer",
     company: "Stealth",
     logo: "/stealth_new.png",
     period: "Summer 2024 - Present",
