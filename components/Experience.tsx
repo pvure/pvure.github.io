@@ -9,7 +9,7 @@ const experiences = [
   {
     title: "Engineer",
     company: "Stealth",
-    logo: "/stealth.png",
+    logo: "/stealth_new.png",
     period: "Summer 2024 - Present",
     description:
       "Building at the intersection of AI and Biotech.",
