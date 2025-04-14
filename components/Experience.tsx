@@ -8,8 +8,8 @@ import { Card } from "./ui/card"
 const experiences = [
   {
     title: "Engineer",
-    company: "Valinor Discovery",
-    logo: "/valinor-logo.png",
+    company: "Stealth",
+    logo: "/stealth.png",
     period: "Summer 2024 - Present",
     description:
       "Building at the intersection of AI and Biotech.",
