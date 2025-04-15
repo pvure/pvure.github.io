@@ -5,7 +5,7 @@ export function About() {
         I&apos;m a junior at Duke interested in the design of low-latency, high-throughput backend systems. I have experience working on ETL pipelines at growth stage startups and I enjoy thinking about algorithmic problems.
       </p>
       <p>
-        Right now, I&apos;m at Ramp on the Data Platform team working on their internal feature store for ML decisioning models.
+        Right now, I&apos;m on the Data Platform team at Ramp working on their internal feature store for ML decisioning models.
       </p>
       <p>
         In my free time, I like to explore new tech,{" "}

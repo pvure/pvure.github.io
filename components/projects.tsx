@@ -109,7 +109,6 @@ export function Projects() {
         github: "https://github.com/aaaronhsu/whack-a-mole",
       },
       technologies: ["Verilog", "C", "FPGA"],
-      featured: true,
     },
     {
       title: "Quarcade (Google Mentorship Project)",
