@@ -2,15 +2,10 @@ export function About() {
   return (
     <section className="space-y-6 text-lg leading-relaxed">
       <p>
-        I&apos;m a junior at Duke interested in optimizations for high-load
-        backend systems. In the past, I&apos;ve worked at early/growth stage
-        startups, where I built pipelines to ingest and process large amounts of
-        data.
+        I&apos;m a junior at Duke interested in the design of low-latency, high-throughput backend systems. I have experience working on ETL pipelines at growth stage startups and I enjoy thinking about algorithmic problems.
       </p>
       <p>
-        Right now, I&apos;m working on projects that deal with cloud
-        infrastructure. I have experience building full stack apps and enjoy
-        working on algorithmic problems.
+        Right now, I&apos;m at Ramp on the Data Platform team working on their internal feature store for ML decisioning models.
       </p>
       <p>
         In my free time, I like to explore new tech,{" "}
