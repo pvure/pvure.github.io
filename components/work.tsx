@@ -27,6 +27,25 @@ export function Work() {
       company: "Ramp",
       website: "https://ramp.com/",
       role: "Software Engineer Intern",
+      period: "2025",
+      type: "Data Platform",
+      logo: "/ramp.svg?height=50&width=50",
+      details: {
+        description:
+          "Built serving layer for Ramp's internal feature store for ML decisioning models.",
+        achievements: [
+          "Core dev of Ramp's internal feature platform for ML decisioning, built on Snowflake, RisingWave, and Dagster",
+          "Built serving layer for low latency + high throughput feature serving and CI/CD with zero-downtime releases",
+          "Implemented 'shadow mode' workflows to safely evaluate feature parity on production traffic before full rollout",
+          "Productionized the first Risk application, reducing p95 feature query latency from 5s+ to 250ms",
+        ],
+        technologies: ["RisingWave", "Temporal", "CodeArtifact", "Dagster", "Github Actions"],
+      },
+    },
+    {
+      company: "Ramp",
+      website: "https://ramp.com/",
+      role: "Software Engineer Intern",
       period: "2024",
       type: "Credit Risk",
       logo: "/ramp.svg?height=50&width=50",
@@ -34,9 +53,8 @@ export function Work() {
         description:
           "Owned end-to-end flow to automatically evaluate and set credit limits.",
         achievements: [
-          "Engineered a credit limit evaluation pipeline ($10M+ monthly spend) and internal risk platform (200+ users)",
-          "Built load-tested pipeline with Redis locks and Datadog monitoring across microservices for high-throughput ops",
-          "Architected automated DB sync system and developed test suite achieving 90%+ coverage for critical services",
+          "Engineered a high throughput credit limit evaluation pipeline, generating \$10M of increased monthly spend",
+          "Architected a new core application to support a risk action notification system for 200+ internal risk analysts",
         ],
         technologies: ["Python", "Flask", "PostgreSQL", "Datadog"],
       },
@@ -52,9 +70,8 @@ export function Work() {
         description:
           "Built v1 of data pipeline for a market intelligence model.",
         achievements: [
-          "Engineered a fault-tolerant data pipeline with multithreaded scraping and proxy rotation for 30K+ daily requests",
-          "Implemented Postgres caching layer with materialized views, reducing query times and costs for analytics by 70%",
-          "Deployed system on GCE, and integrated ML classification to identify 1000+ clients at 30% of the expected cost",
+          "Built a data pipeline with multithreaded web scraping and proxy rotation to evaluate 30K+ Instagram accounts/day",
+          "Implemented caching layers to reduce query times and identify 1000+ clients at 30\% of the expected cost",
         ],
         technologies: ["Python", "Selenium", "PostgreSQL", "Docker"],
       },

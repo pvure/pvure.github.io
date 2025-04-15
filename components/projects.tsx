@@ -58,7 +58,6 @@ export function Projects() {
         "WebSockets",
         "NGINX",
       ],
-      featured: true,
     },
     {
       title: "Airbnb Price Prediction (Kaggle Competition)",
@@ -80,7 +79,6 @@ export function Projects() {
         live: "https://youtube.com/shorts/YXsofZzp9Dg",
       },
       technologies: ["Rust", "Python", "YOLOv8", "Computer Vision"],
-      featured: true,
     },
     {
       title: "WalletWatchers: Expense Aggregator",
