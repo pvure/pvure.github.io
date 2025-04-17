@@ -3,7 +3,6 @@ import Hero from "../components/Hero"
 import Experience from "../components/Experience"
 import Publications from "../components/Publications"
 import Projects from "../components/Projects"
-import Gallery from "../components/Gallery"
 import Blog from "../components/Blog" // Import the Blog component
 import Contact from "../components/Contact"
 import { DotPattern } from "@/components/ui/dot-pattern"
@@ -21,7 +20,6 @@ export default function Home() {
         <Publications />
         <Projects />
         <Blog />
-        <Gallery />
         <Contact />
         <Footer />
       </div>
