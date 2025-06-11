@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="space-y-6 text-lg leading-relaxed">
+    <section className="space-y-4 text-lg leading-relaxed">
       <p>
         I&apos;m a junior at Duke interested in the design of low-latency, high-throughput backend systems. I have experience working on ETL pipelines at growth stage startups and I enjoy thinking about algorithmic problems.
       </p>
