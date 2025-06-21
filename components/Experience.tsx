@@ -8,11 +8,11 @@ import { Card } from "./ui/card"
 const experiences = [
   {
     title: "ML Engineer",
-    company: "Stealth",
-    logo: "/stealth_new.png",
+    company: "Valinor Discovery",
+    logo: "/valinor.png",
     period: "Summer 2024 - Present",
     description:
-      "Building at the intersection of AI and Biotech.",
+      "Building SOTA perturbation prediction models to translate drugs to simulate the clinical efficacy of drugs in humans.",
   },
   {
     title: "ML Researcher",

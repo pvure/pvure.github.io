@@ -63,8 +63,8 @@ export const Hero = () => {
             </span>
           </h3>
           <p className="font-sans basis-0 text-muted-foreground text-pretty">
-            Incoming Bioengineering PhD Student @ UPenn. Current Senior @ Duke University majoring in Biomedical Engineering with a focus on molecular and cellular engineering.
-            Experienced in integrating deep learning and generative AI with protein design. Feel free to{" "}
+            Incoming Bioengineering PhD Student @ UPenn. Graduated from Duke University with a major in Biomedical Engineering with a focus on molecular and cellular engineering.
+            Experienced in integrating deep learning and generative AI with biomolecular design. Feel free to{" "}
             <Link href="#contact" className="underline underline-offset-2">
               reach out!
             </Link>
