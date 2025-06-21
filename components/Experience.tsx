@@ -9,7 +9,7 @@ const experiences = [
   {
     title: "ML Engineer",
     company: "Valinor Discovery",
-    logo: "/valinor.png",
+    logo: "/valinor_transparent.png",
     period: "Summer 2024 - Present",
     description:
       "Building SOTA perturbation prediction models to translate drugs to simulate the clinical efficacy of drugs in humans.",
