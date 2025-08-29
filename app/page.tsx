@@ -3,7 +3,6 @@ import Hero from "../components/Hero"
 import Experience from "../components/Experience"
 import Publications from "../components/Publications"
 import Projects from "../components/Projects"
-import Contact from "../components/Contact"
 import { DotPattern } from "@/components/ui/dot-pattern"
 import { cn } from "@/lib/utils"
 import { Footer } from "@/components/Footer"
@@ -18,7 +17,6 @@ export default function Home() {
         <Experience />
         <Publications />
         <Projects />
-        <Contact />
         <Footer />
       </div>
       <DotPattern
