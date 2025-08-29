@@ -7,6 +7,14 @@ import { Card } from "./ui/card"
 
 const experiences = [
   {
+    title: "Researcher",
+    company: "University of Pennsylvania",
+    logo: "/pennlogo.png",
+    period: "Summer 2025 - Present",
+    description:
+      "Engineering proteins for therapeutics.",
+  },
+  {
     title: "ML Engineer",
     company: "Valinor Discovery",
     logo: "/valinor_transparent.png",

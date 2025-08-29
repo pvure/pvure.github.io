@@ -3,8 +3,6 @@ import Hero from "../components/Hero"
 import Experience from "../components/Experience"
 import Publications from "../components/Publications"
 import Projects from "../components/Projects"
-import Blog from "../components/Blog" // Import the Blog component
-import CurrentlyReading from "../components/CurrentlyReading" 
 import Contact from "../components/Contact"
 import { DotPattern } from "@/components/ui/dot-pattern"
 import { cn } from "@/lib/utils"
