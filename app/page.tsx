@@ -18,8 +18,6 @@ export default function Home() {
         <Experience />
         <Publications />
         <Projects />
-        <Blog />
-        <CurrentlyReading /> 
         <Contact />
         <Footer />
       </div>
