@@ -10,7 +10,7 @@ import { Section } from "./misc/Section"
 const blogPosts = [
   {
     id: 1,
-    title: "Bioengineering Primer: Fighting Viruses That Change Their Face",
+    title: "Humanity's Next Evolution?",
     date: "March 26, 2025",
     readTime: "10 min read",
     summary: "An introduction to bioengineering and a glimpse into my research on designing proteins to combat coronavirus variants.",
