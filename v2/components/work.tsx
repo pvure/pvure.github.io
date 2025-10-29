@@ -10,12 +10,9 @@ interface WorkExperience {
   website: string;
   role: string;
   period: string;
-  type: string;
   logo: string;
   details: {
     description: string;
-    achievements: string[];
-    technologies: string[];
   };
 }
 
@@ -28,35 +25,21 @@ export function Work() {
       website: "https://www.valinordiscovery.com",
       role: "ML Engineer",
       period: "2024-now",
-      type: "",
-      logo: "/valinor-logo.png?height=100&width=100",
+      logo: "/valinor-logo.png?height=300&width=300",
       details: {
         description:
-          "Built serving layer for Ramp's internal feature store for ML decisioning models.",
-        achievements: [
-          "Core dev of Ramp's internal feature platform for ML decisioning, built on Snowflake, RisingWave, and Dagster",
-          "Built serving layer for low latency + high throughput feature serving and CI/CD with zero-downtime releases",
-          "Implemented 'shadow mode' workflows to safely evaluate feature parity on production traffic before full rollout",
-          "Productionized the first Risk application, reducing p95 feature query latency from 5s+ to 250ms",
-        ],
-        technologies: ["PyTorch", "Temporal", "CodeArtifact", "Dagster", "Github Actions"],
+          "Building SOTA perturbation prediction models to translate drugs to simulate the clinical efficacy of drugs in humans.",
       },
     },
     {
-      company: "Ramp",
+      company: "Programmable Biology Group",
       website: "https://ramp.com/",
-      role: "Software Engineer Intern",
-      period: "2024",
-      type: "Credit Risk",
+      role: "ML Researcher",
+      period: "2023-2025",
       logo: "/ramp.svg?height=50&width=50",
       details: {
         description:
-          "Owned end-to-end flow to automatically evaluate and set credit limits.",
-        achievements: [
-          "Engineered a high throughput credit limit evaluation pipeline, generating \$10M of increased monthly spend",
-          "Architected a new core application to support a risk action notification system for 200+ internal risk analysts",
-        ],
-        technologies: ["Python", "Flask", "PostgreSQL", "Datadog"],
+          "Built generative AI & deep learning-based models and platforms for protein design under Dr. Pranam Chatterjee.",
       },
     },
     {
@@ -69,11 +52,6 @@ export function Work() {
       details: {
         description:
           "Built v1 of data pipeline for a market intelligence model.",
-        achievements: [
-          "Built a data pipeline with multithreaded web scraping and proxy rotation to evaluate 30K+ Instagram accounts/day",
-          "Implemented caching layers to reduce query times and identify 1000+ clients at 30\% of the expected cost",
-        ],
-        technologies: ["Python", "Selenium", "PostgreSQL", "Docker"],
       },
     },
   ];
@@ -147,25 +125,12 @@ export function Work() {
             <p className="text-gray-600">{selectedWork.details.description}</p>
 
             <div>
-              <h4 className="font-medium mb-2">Results</h4>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
-                {selectedWork.details.achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
-                ))}
               </ul>
             </div>
 
             <div>
-              <h4 className="font-medium mb-2">Technologies Used</h4>
               <div className="flex flex-wrap gap-2">
-                {selectedWork.details.technologies.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-600"
-                  >
-                    {tech}
-                  </span>
-                ))}
               </div>
             </div>
           </div>
