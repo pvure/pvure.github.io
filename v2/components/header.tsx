@@ -3,17 +3,13 @@
 import Link from "next/link";
 import { useState } from "react";
 import { motion, useAnimation } from "framer-motion";
-import { Chicken } from "./chicken";
 
 export function Header() {
   const controls = useAnimation();
-  const [chickenAnimating, setChickenAnimating] = useState(false);
   const [numAnimations, setNumAnimations] = useState(0);
 
   const handleMouseEnter = async () => {
     // Prevent multiple animations from starting simultaneously
-    if (chickenAnimating) return;
-    setChickenAnimating(true);
     setNumAnimations(numAnimations + 1);
 
     // Start by making the chicken visible and move to x: 300
@@ -75,27 +71,10 @@ export function Header() {
   return (
     <header className="flex justify-between items-center relative">
       <h1 className="text-3xl font-medium tracking-tight z-50">
-        Aaron Hs
-        <span
-          className={
-            "inline-block cursor-pointer" +
-            (chickenAnimating || numAnimations == 0 ? " animate-spin" : "")
-          }
-          onMouseEnter={handleMouseEnter}
-        >
-          u
-        </span>
+        Aaron Hsu
       </h1>
 
       {/* Always mounted, visibility controlled via animation */}
-      <motion.div
-        className="absolute left-[7.5em] top-1/2 -translate-y-1/2 z-10"
-        animate={controls}
-        initial={{ opacity: 0, x: 0 }}
-      >
-        <Chicken />
-      </motion.div>
-
       <nav className="flex items-center gap-4">
         <Link
           href="https://www.linkedin.com/in/aaaronhsu/"
