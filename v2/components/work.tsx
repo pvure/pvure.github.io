@@ -36,22 +36,21 @@ export function Work() {
       website: "https://ramp.com/",
       role: "ML Researcher",
       period: "2023-2025",
-      logo: "/ramp.svg?height=50&width=50",
+      logo: "/CAGT_logo.png?height=50&width=50",
       details: {
         description:
           "Built generative AI & deep learning-based models and platforms for protein design under Dr. Pranam Chatterjee.",
       },
     },
     {
-      company: "Hotplate",
+      company: "Medtronic",
       website: "https://www.hotplate.com",
-      role: "Software Engineer Intern",
-      period: "2023",
-      type: "Market Intelligence",
-      logo: "/hotplate.svg?height=50&width=50",
+      role: "Data Science Intern",
+      period: "2024",
+      logo: "/medtronic-2.png?height=50&width=50",
       details: {
         description:
-          "Built v1 of data pipeline for a market intelligence model.",
+          "Quantified sympathetic control of renal vasculature and developed indicators for renal denervation treatment efficacy.",
       },
     },
   ];
