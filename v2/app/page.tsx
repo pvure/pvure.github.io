@@ -1,7 +1,6 @@
-import { Work } from "@/components/work";
+
 import { About } from "@/components/about";
 import { Header } from "@/components/header";
-import { Projects } from "@/components/projects";
 
 export default function Home() {
   return (
@@ -10,8 +9,6 @@ export default function Home() {
         {/* Header stays static, no animation */}
         <Header />
         <About />
-        <Work />
-        <Projects />
       </div>
     </div>
   );
