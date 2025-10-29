@@ -24,12 +24,12 @@ export function Work() {
 
   const experiences: WorkExperience[] = [
     {
-      company: "Ramp",
-      website: "https://ramp.com/",
-      role: "Software Engineer Intern",
-      period: "2025",
-      type: "Data Platform",
-      logo: "/ramp.svg?height=50&width=50",
+      company: "Valinor Discovery",
+      website: "https://www.valinordiscovery.com",
+      role: "ML Engineer",
+      period: "2024-now",
+      type: "",
+      logo: "/valinor-logo.png?height=100&width=100",
       details: {
         description:
           "Built serving layer for Ramp's internal feature store for ML decisioning models.",
@@ -39,7 +39,7 @@ export function Work() {
           "Implemented 'shadow mode' workflows to safely evaluate feature parity on production traffic before full rollout",
           "Productionized the first Risk application, reducing p95 feature query latency from 5s+ to 250ms",
         ],
-        technologies: ["RisingWave", "Temporal", "CodeArtifact", "Dagster", "Github Actions"],
+        technologies: ["PyTorch", "Temporal", "CodeArtifact", "Dagster", "Github Actions"],
       },
     },
     {

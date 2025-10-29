@@ -2,34 +2,34 @@ export function About() {
   return (
     <section className="space-y-4 text-lg leading-relaxed">
       <p>
-        I&apos;m a first year bioengineering phd student @ penn, interested in ai-driven biomolecule design
+        I&apos;m a first year bioengineering phd student @ UPenn, advised by Dr. Sherry Gao. 
       </p>
       <p>
-        Right now, I&apos;m in in the Sherry Gao lab.
+      I&apos;m interested in AI-driven biomolecular design.
       </p>
       <p>
-        In my free time, I like to explore new tech,{" "}
+        In my free time, I like to {" "}
         <a
-          href="https://youtu.be/OT7CZKSR5z4"
+          href="https://hevy.com/user/0pv0"
           target="_blank"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
-          play with fire
+          lift
         </a>
-        , and{" "}
+        ,{" "}
         <a
-          href="https://beliapp.co/app/aaaronhsu"
+          href="https://beliapp.co/app/pranay_"
           target="_blank"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
-          try different restaurants
+          eat
         </a>
-        .
+        , and read.
       </p>
       <p>
         Feel free to reach out at{" "}
         <a
-          href="mailto:aaronhsu4606@gmail.com"
+          href="mailto:pvure@seas.upenn.edu"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
         >
           pvure@seas.upenn.edu
