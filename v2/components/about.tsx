@@ -9,7 +9,7 @@ export function About() {
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-400 underline transition-colors duration-200"
         >
-          the University of Pennsylvania
+          The University of Pennsylvania
         </a>
         , advised by{" "}
         <a
@@ -20,7 +20,7 @@ export function About() {
         >
           Dr. Sherry Gao
         </a>
-        . I work on discovering and designing new DNA- and base-editing paradigms.
+        . I work on the AI-driven discovery and design of new DNA- and base-editing paradigms.
       </p>
 
       <p>
@@ -51,7 +51,7 @@ export function About() {
         >
           Dr. Mihai Azoitei
         </a>{" "}
-        on developing immunogens against influenza and coronaviruses. Recently, I&apos;ve been doing ML at{" "}
+        on developing immunogens against influenza and coronaviruses. Recently, I&apos;ve been developing models to streamline clinical trials at {" "}
         <a
           href="https://valinordiscovery.com/"
           target="_blank"
@@ -70,6 +70,10 @@ export function About() {
           Google Scholar
         </a>{" "}
         for my publications.
+      </p>
+
+      <p>
+        In my free time, I like to read, lift, and eat. 
       </p>
 
       <p>
