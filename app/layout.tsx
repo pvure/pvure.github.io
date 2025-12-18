@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aaron Hsu | Portfolio",
-  description: "Aaron Hsu's portfolio website",
+  title: "Pranay Vure website",
+  description: "Pranay Vure's website",
 };
 
 export default function RootLayout({
