@@ -1,7 +1,5 @@
 import { About } from "@/components/about";
 import { Header } from "@/components/header";
-import { AnimateIn } from "@/components/animate-in";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
