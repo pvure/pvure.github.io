@@ -13,7 +13,7 @@ export function About() {
         </a>
         , advised by{" "}
         <a
-          href="https://www.che.utexas.edu/people/faculty/sherry-gao"
+          href="https://xuegaolab.org"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
@@ -34,7 +34,7 @@ export function About() {
         </a>
         , where I worked with{" "}
         <a
-          href="https://pranamchatterjee.github.io/"
+          href="https://www.chatterjeelab.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
@@ -43,7 +43,7 @@ export function About() {
         </a>{" "}
         on developing algorithms for protein and peptide design, and with{" "}
         <a
-          href="https://www.bme.duke.edu/faculty/mihai-azoitei"
+          href="https://dhvi.duke.edu/azoitei-lab"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-900 hover:text-gray-600 underline transition-colors duration-200"
